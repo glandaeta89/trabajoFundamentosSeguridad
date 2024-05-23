@@ -1,0 +1,56 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\large Introducción}{1}{section*.4}%
+\contentsline {section}{\large Objetivo General}{3}{section*.5}%
+\contentsline {section}{\large Actividad 1}{4}{section*.6}%
+\contentsline {subsection}{¿Qué es CWE?}{4}{section*.7}%
+\contentsline {subsection}{¿Qué es CVE?}{4}{section*.8}%
+\contentsline {subsection}{Diferencia entre CWE y CVE}{4}{section*.9}%
+\contentsline {subsection}{Análisis en CVE Details}{5}{section*.10}%
+\contentsline {subsection}{Top de Vulnerabilidades Comunes}{5}{section*.12}%
+\contentsline {subsection}{Definición de las Vulnerabilidades en el Top}{6}{section*.14}%
+\contentsline {subsubsection}{Microsoft Message Queuing Remote Code Execution Vulnerability}{6}{section*.15}%
+\contentsline {subsubsection}{Windows Kernel Elevation of Privilege Vulnerability}{6}{section*.16}%
+\contentsline {subsubsection}{Microsoft PostScript and PCL6 Class Printer Driver Information Disclosure Vulnerability}{7}{section*.17}%
+\contentsline {subsubsection}{Microsoft Message Queuing Denial of Service Vulnerability}{7}{section*.18}%
+\contentsline {section}{\large Actividad 2}{8}{section*.19}%
+\contentsline {section}{\large Actividad 3}{9}{section*.20}%
+\contentsline {subsection}{¿Qué es Docker?}{9}{section*.21}%
+\contentsline {subsection}{Uso de Docker}{9}{section*.22}%
+\contentsline {section}{\large Actividad 4}{13}{section*.29}%
+\contentsline {subsection}{¿Qué es Phishing?}{13}{section*.30}%
+\contentsline {subsection}{¿Qué es phishingquiz?}{13}{section*.31}%
+\contentsline {subsection}{Respondiendo phishingquiz}{13}{section*.32}%
+\contentsline {section}{\large Actividad 5}{21}{section*.44}%
+\contentsline {subsection}{¿Qué es OSINT Framework?}{21}{section*.45}%
+\contentsline {subsection}{¿Qué uso se le puede dar a OSINT Framework?}{21}{section*.46}%
+\contentsline {subsection}{¿En qué fase el hacking ético se pudiese usar el OSINT Framework?}{21}{section*.47}%
+\contentsline {subsection}{Social-Searcher}{23}{section*.50}%
+\contentsline {subsection}{Utilidades de Social-Searcher en Ciberseguridad}{24}{section*.53}%
+\contentsline {subsection}{Etapa de Reconocimiento de Hancking Ético y Social-Searcher}{25}{section*.54}%
+\contentsline {subsection}{Debilidades que Considerar Respecto al Uso de Social-Searcher}{25}{section*.55}%
+\contentsline {subsection}{Caso Filtración Banco Santander}{26}{section*.56}%
+\contentsline {section}{\large Actividad 6}{40}{section*.80}%
+\contentsline {subsection}{¿Qué es un motor de búsqueda?}{40}{section*.81}%
+\contentsline {subsection}{Caso de estudio: Payku}{40}{section*.82}%
+\contentsline {subsection}{Recolección pasiva de información a través de motores de búsqueda}{40}{section*.83}%
+\contentsline {subsubsection}{Shodan}{40}{section*.84}%
+\contentsline {subsubsection}{Zoomeye}{41}{section*.87}%
+\contentsline {subsubsection}{Censys}{43}{section*.91}%
+\contentsline {section}{\large Actividad 7}{45}{section*.95}%
+\contentsline {subsection}{¿Qué es Nmap?}{45}{section*.96}%
+\contentsline {subsection}{Caso juice-shop.herokuapp.com}{45}{section*.97}%
+\contentsline {subsection}{Búsqueda de puertos activos}{45}{section*.98}%
+\contentsline {subsection}{Búsqueda de versiones de servicios}{46}{section*.101}%
+\contentsline {subsection}{Búsqueda de vulnerabilidades en servicios utilizando Scripts de Nmap}{47}{section*.104}%
+\contentsline {section}{\large Actividad 8}{50}{section*.106}%
+\contentsline {subsection}{¿Qué es Nessus?}{50}{section*.107}%
+\contentsline {subsection}{Caso juice-shop.herokuapp.com}{50}{section*.108}%
+\contentsline {subsection}{Creación de escaneo Nessus }{50}{section*.109}%
+\contentsline {subsection}{Iniciar escaneo}{52}{section*.113}%
+\contentsline {subsection}{Resultados de escaneo}{53}{section*.115}%
+\contentsline {section}{\large Actividad 9}{55}{section*.118}%
+\contentsline {subsection}{Infección de Malware Ransomware}{55}{section*.119}%
+\contentsline {subsection}{Información sobre TeslaCrypt}{61}{section*.132}%
+\contentsline {subsection}{Ejecutando TeslaDecoder}{62}{section*.133}%
+\contentsline {section}{\large Conclusión}{67}{section*.138}%
