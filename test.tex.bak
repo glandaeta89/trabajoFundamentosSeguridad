@@ -6,7 +6,7 @@
 % Fuentes consultadas (todos los derechos reservados):  
 % Normas APA. (2019). Guía Normas APA. https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf
 % Tecnológico de Costa Rica [Richmond]. (2020, 16 abril). LaTeX desde cero con Overleaf (1 de 3) [Vídeo]. YouTube. https://www.youtube.com/watch?v=kM1KvHVuaTY Weiss, D. (2021). 
-% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
+% Formatting documents in APA style (7th Edition) with the apa7 LATEX class. https://ctan.math.washington.edu/tex-conchive/macros/latex/contrib/apa7/apa7.pdf @COPYLEFT
 
 %+-+-+-+-++-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+
 
@@ -86,19 +86,19 @@
 
 \section{\large Introducción}
 
-En el contexto actual de la ciberseguridad, donde la amenaza de ataques cibernéticos es una preocupación constante, la identificación y mitigación de riesgos se convierten en pilares fundamentales para proteger la integridad de los sistemas y la confidencialidad de los datos. En este sentido, el presente documento ofrece un análisis y exploración de diversas herramientas y técnicas utilizadas en la detección y protección contra amenazas en el entorno digital.
+En el contexto actual de la ciberseguridad, donde la amenaza a sufrir ataques cibernéticos es una preocupación constante, la identificación y mitigación de riesgos se convierten en los cimientos fundamentales para proteger la integridad, confidencialidad y disponibilidad de los sistemas, información y/o datos de una organización. En este sentido, el presente documento ofrece un análisis y exploración de diversas herramientas y técnicas utilizadas en la detección y protección contra amenazas en entornos digitales.  
 
-Desde la evaluación de la infraestructura de red hasta la detección de vulnerabilidades y la prueba de malware, cada aspecto abordado en este estudio representa un componente esencial en la estrategia integral de defensa cibernética. Comenzando con una exploración de las herramientas de escaneo de red, se investiga cómo estas soluciones proporcionan una visión mas amplia de la red de enlaces, identificando dispositivos, puertos abiertos y servicios en ejecución, sentando así las bases para comprender la estructura de la red y revelar posibles puntos de entrada para amenazas.
+Desde la evaluación de la infraestructura de red hasta la detección de vulnerabilidades y pruebas con malware, cada aspecto abordado en este estudio representa un componente esencial en la estrategia integral de defensa cibernética. Comenzando con una exploración y entendimiento de catálogos de vulnerabilidades generales o en productos, siguiendo con la virtualización y aislamiento de sistemas para armar laboratorios de prueba, framework y herramientas para inteligencia de fuentes abiertas, también herramientas de escaneo de red, investigando cómo estas soluciones proporcionan una visión más amplia de la red de enlaces, identificando dispositivos, puertos abiertos y servicios en ejecución, sentando así las bases para comprender la estructura de la red y revelar posibles puntos de entrada para amenazas.  
 
-Posteriormente, se aborda la evaluación de vulnerabilidades, donde se examinan herramientas especializadas diseñadas para detectar debilidades en la seguridad de los sistemas. Estos escáneres avanzados exploran minuciosamente los sistemas en busca de vulnerabilidades conocidas, proporcionando una evaluación detallada del riesgo y recomendaciones para su mitigación.
+Posteriormente, se aborda la evaluación de vulnerabilidades, donde se examinan herramientas especializadas diseñadas para detectar debilidades en los sistemas que puedan afectar su seguridad. Estos escáneres avanzados exploran minuciosamente los sistemas en busca de vulnerabilidades conocidas, proporcionando una evaluación detallada del riesgo y recomendaciones para su mitigación.  
 
-Finalmente, el estudio se adentra en las pruebas de malware, donde se simulan escenarios de infección y se exploran estrategias de recuperación. Esta parte del análisis nos sumerge en el complejo mundo de los ataques cibernéticos, donde la capacidad para identificar, contener y eliminar amenazas es esencial para preservar la integridad de los sistemas y la confidencialidad de los datos.
+Finalmente, el estudio se adentra en las pruebas de malware, donde se simulan escenarios de infección y se exploran estrategias de recuperación. Esta parte del análisis nos sumerge en el complejo mundo de los ataques cibernéticos, donde la capacidad para identificar, contener y eliminar amenazas es esencial para preservar la triada de seguridad de la información. 
 
 \newpage
 
 \section{\large Objetivo General}
 
-Explorar y analizar diversas herramientas y técnicas utilizadas en la identificación, evaluación y mitigación de riesgos en el ámbito de la ciberseguridad. 
+Explorar diversas herramientas y técnicas utilizadas en la identificación, evaluación y mitigación de riesgos en el ámbito de la ciberseguridad. 
 
 \newpage
 
@@ -184,7 +184,237 @@ Esta vulnerabilidad permite a un atacante enviar un mensaje especialmente diseñ
 
 \newpage
 
-\section{\large Actividad 2}
+\section{\large Actividad 2 : Reporte de Instalación y virtualización de un sistema operativo de seguridad}
+
+\subsection{¿Qué es VM?} 
+
+Una máquina virtual (VM) es un entorno informático aislado con su propia CPU, memoria, interfaz de red y almacenamiento, creado a partir de recursos de hardware. También se puede definir como un software capaz de cargar en su interior otro sistema operativo haciéndole creer que es un PC de verdad, creando una máquina (PC, consola, móvil) que es virtual o emulada en vez de física. 
+
+Con la virtualización es posible crear varias máquinas virtuales, cada una con su propio sistema operativo y aplicaciones dentro de una misma máquina física. Una máquina virtual no puede interactuar directamente con un sistema físico. En cambio, necesita una capa de software ligera, llamada hipervisor, para coordinarse con el hardware físico subyacente. El hipervisor asigna recursos informáticos físicos, como procesadores, memoria y almacenamiento, a cada máquina virtual. Mantiene cada máquina virtual separada de las otras para que no interfieran entre sí. 
+
+\subsection{¿Cuál es la Utilidad de la Virtualización de Sistema Operativo? } 
+La virtualización de sistema operativo permite la optimización en el uso de recursos, facilita la gestión y almacenamiento, mejora la seguridad y flexibilidad de los sistemas de TI. Sus principales utilidades son:
+ 
+\begin{itemize}
+\item  Consolidación de Servidores: ya que permite la ejecución de múltiples servidores en una sola máquina física, reduciendo el número de servidores necesarios. 
+\item Aislamiento y Seguridad: ya que cada máquina virtual funciona de forma independiente, lo que aumenta la seguridad al aislar aplicaciones y procesos. 
+\item Flexibilidad y Escalabilidad: ya que facilita la creación y eliminación de VMs según las necesidades, permitiendo una escalabilidad eficiente. 
+\item Pruebas y Desarrollo: ya que proporciona entornos aislados para el desarrollo y pruebas de software, evitando conflictos con otros sistemas.
+\item  Recuperación ante Desastres: ya que las VMs pueden ser fácilmente respaldadas y restauradas en diferentes hardware, mejorando así la capacidad de recuperación.
+\end{itemize}
+
+ \subsection{¿Qué es Kali Linux? }
+ 
+ Kali Linux es una distribución de Linux basada en Debian que proporciona una amplia gama de herramientas de seguridad informática ya preinstaladas y listas para ejecutar. Entre estas herramientas se encuentran programas de escaneo de redes, análisis forense, pruebas de penetración, recopilación de información y herramientas de seguridad en general.  
+
+\subsection{Instalación de Virtualizador }
+
+Existen diversos softwares del hipervisor disponibles, sin embargo, para el desarrollo de esta actividad se seleccionó VirtualBox para la instalación.  
+
+El sitio oficial de VirtualBox es el https://www.virtualbox.org \noindent \citep{virtualbox}\\
+
+El equipo base en donde se instaló el VirtualBox, trabaja con Sistema Operativo Windows, por lo que descargó la versión “7.0.18” del siguiente enlace: \url{https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe }
+
+\begin{figure}[H]
+    \centering
+    \caption{Sitio de VirtualBox para la descargar del instalador}
+    \includegraphics[width=0.6\linewidth]{imagenCap2/1.jpg} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Se ubica el archivo descargado y se ejecuta haciendo clic en el mismo. A continuación, se despliega el aplicativo para la instalación. 
+Iniciamos el proceso, haciendo clic en el botón “Next”. Como se muestra en la Figura \ref{figura2.2}
+\hfill \break
+
+\begin{figure}[H]
+    \centering
+    \caption{Inicio de proceso de instalación.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/2.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{figura2.2}
+\end{figure}
+
+\hfill \break
+Luego de inicia el proceso de configuración personalizada de la máquina virtual, tal como árbol que instalará, aceptar advertencias del sistema y autorización para instalar dependencias faltantes.
+\hfill \break
+\begin{figure}[H]
+    \centering
+    \caption{Configuración personalizada – Árbol de instalación.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/3.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+ \hfill \break
+\begin{figure}[H]
+    \centering
+    \caption{Configuración personalizada – Aceptar advertencia..}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/4.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+ \hfill \break
+\begin{figure}[H]
+    \centering
+    \caption{Configuración personalizada – Autorización para instalar dependencias faltantes.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/5.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Iniciar la instalación personalizada.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/6.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Luego de iniciar la instalación y se muestra el estado de avance de esta.
+\begin{figure}[H]
+    \centering
+    \caption{Vista para monitorear el estado de la instalación.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/7.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Finalizar la instalación.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/8.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Finalmente, la máquina virtual se encontrará instalada y lista para realizar las virtualizaciones requeridas según las actividades posteriores a desarrollar.
+ \hfill \break
+\begin{figure}[H]
+    \centering
+    \caption{Máquina Virtual ya instalada - Vista principal de VirtualBox.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/9.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+ 
+\subsection{Instalación de Sistema Operativo Virtualizado}
+
+A continuación, se procede a la descarga de la imagen del sistema operativo seleccionado para el desarrollo de esta actividad, el cual es Kali Linux, el sitio oficial de este es el \url{https://www.kali.org}.  \citep{kali}
+
+\begin{figure}[H]
+    \centering
+    \caption{Sitio Oficial Kali Linux.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/10.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Para descargar Kali Linux, debe hacer clic en el botón de “Descarga”, lo cual conduce a \url{https://www.kali.org/get-kali/#kali-platforms} en donde se debe seleccionar la descarga relacionada a “Imágenes del Instalador”.
+
+A continuación, se debe seleccionar que tipo Sistema (respecto a los bits) se posee en el equipo base donde se realizará la instalación. En este caso 64bits para VirtualBox.
+
+\begin{figure}[H]
+    \centering
+    \caption{Sitio oficial de Kali Linux - Descarga de imagen del instalador según bits de equipo base.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/11.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Luego de contar con la imagen, se procede a crear una máquina virtual nueva en VirtualBox, haciendo uso de la opción “Añadir”.
+
+\begin{figure}[H]
+    \centering
+    \caption{VirtualBox - Añadir nueva máquina virtual.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/12.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+Se inicia la creación de la máquina virtual, se establece el nombre, se le asigna una ruta, se le suministra la ruta de la .iso a instalar, se la asigna RAM y número de CPU virtuales, así como se crea y asigna capacidad a un disco duro virtual (también se puede asignar un disco duro existente).
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración de Máquina Virtual – Nombre y sistema operativo.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/13.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración de Máquina Virtual – RAM y CPU virtuales.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/14.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración de Máquina Virtual – Disco Duro Virtual.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/15.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración de Máquina Virtual – Resumen de configuración.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/16.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\subsection{Configuración de Sistema Operativo – Kali Linux}
+
+Ya creada la máquina virtual Kali Linux, se selecciona e inicia para realizar las configuraciones de esta, a nivel de idioma, red, usuario y contraseña, particionado de disco, cargador de arranque.
+
+\begin{figure}[H]
+    \centering
+    \caption{Iniciar Máquina Virtual Kali Linux.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/17.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux - Idioma.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/18.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux - Red.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/19.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux - Usuario.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/20.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux - Contraseña.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/21.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux – Resumen y finalizado de particionado de disco.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/22.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Configuración Kali Linux – Cargador de Arranque}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/23.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Kali Linux Instalado, configurado, en ejecución e iniciado sesión.}
+    \includegraphics[width=0.5\linewidth]{imagenCap2/24.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{fig:OverallEffect}
+\end{figure}
+
+\subsection{Análisis - Uso de Kali Linux Virtualizado}
+
+Es esencial para ingenieros de ciberseguridad disponer de un sistema operativo como Kali Linux de forma virtualizada, ya que proporciona un entorno además de seguro, aislado para realizar pruebas sin afectar el sistema anfitrión. La capacidad de recuperación rápida y portabilidad, facilitan la movilidad y la eficiencia en las actividades cotidianas de los colaboradores en ciberseguridad. Con este tipo de sistemas operativos virtualizados, se optimiza el consumo de recursos, permite probar distintas configuraciones y mejora la seguridad en general al contener actividades que podrían ser dañinas en un entorno controlado. La virtualización de Kali Linux, en resumen, es crucial para el desarrollo de actividades en ciberseguridad, ofreciendo flexibilidad, seguridad y eficiencia.
+ 
+
 
 \newpage
 

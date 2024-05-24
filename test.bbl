@@ -68,6 +68,27 @@ Jigsaw, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}}}{%
+\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}}}{%
+{\protect \APACyear {2024}}%
+}]{%
+kali}
+\APACinsertmetastar {%
+kali}%
+\APACrefbtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}.} {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}.}
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APAChowpublished {https://www.kali.org/}.
+\newblock
+\APACrefnote{Consultado el 23 de mayo de 2024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Marcos~Liljedhal%
 }{%
 Marcos~Liljedhal%
@@ -86,7 +107,24 @@ Marcos~Liljedhal, J\BPBI L.%
 \newblock
 \APACrefbtitle {{Play with Docker}.} {{Play with Docker}.}
 \newblock
-\begin{APACrefURL} \url{https://labs.play-with-docker.com/} \end{APACrefURL}
+\APAChowpublished {https://labs.play-with-docker.com/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Oracle VM VirtualBox}}{%
+\APACcitebtitle {Oracle VM VirtualBox}}{%
+{\protect \APACyear {2024}}%
+}]{%
+virtualbox}
+\APACinsertmetastar {%
+virtualbox}%
+\APACrefbtitle {Oracle VM VirtualBox.} {Oracle vm virtualbox.}
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APAChowpublished {\url{https://www.virtualbox.org/}}.
+\newblock
+\APACrefnote{Consultado el 23 de mayo de 2024}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
