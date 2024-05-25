@@ -16,6 +16,7 @@
 \usepackage{comment}
 \usepackage{marvosym}
 \usepackage{graphicx}
+\usepackage{indentfirst}
 \usepackage{float}
 \usepackage[normalem]{ulem}
 \usepackage[spanish,es-tabla]{babel} 
@@ -23,16 +24,16 @@
 \selectlanguage{spanish}
 \useunder{\uline}{\ul}{}
 \linespread{2}
-\usepackage[skip=10pt plus1pt, indent=0pt]{parskip}
+\usepackage[skip=10pt plus1pt, indent=1.27cm]{parskip}
 \setlength{\intextsep}{1cm plus .1cm minus 1.cm}
 \usepackage{color}
 \usepackage{helvet}
+\usepackage{ragged2e}
 \usepackage{pdflscape}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
-
+\usepackage{indentfirst}
 \lstset{frame=tb,
   language=Java,
   aboveskip=3mm,
@@ -49,6 +50,8 @@
   breakatwhitespace=true,
   tabsize=3
 }
+
+\setlength{\parindent}{1.5cm}
 
 % Portada
 \thispagestyle{empty}
@@ -69,16 +72,16 @@
 \pagenumbering{roman}
     % Contenido
 \renewcommand\contentsname{\largeÍndice}
-%\tableofcontents
+\tableofcontents
 \setcounter{tocdepth}{2}
 \newpage
     % Fíguras
 \renewcommand{\listfigurename}{\largeÍndice de fíguras}
-%\listoffigures
+\listoffigures
 \newpage
     % Tablas
 \renewcommand{\listtablename}{\largeÍndice de tablas}
-%\listoftables
+\listoftables
 \newpage
 
 % Cuerpo
@@ -86,7 +89,9 @@
 
 \section{\large Introducción}
 
-En el contexto actual de la ciberseguridad, donde la amenaza a sufrir ataques cibernéticos es una preocupación constante, la identificación y mitigación de riesgos se convierten en los cimientos fundamentales para proteger la integridad, confidencialidad y disponibilidad de los sistemas, información y/o datos de una organización. En este sentido, el presente documento ofrece un análisis y exploración de diversas herramientas y técnicas utilizadas en la detección y protección contra amenazas en entornos digitales.  
+\justify
+
+\hspace{1.27cm} En el contexto actual de la ciberseguridad, donde la amenaza a sufrir ataques cibernéticos es una preocupación constante, la identificación y mitigación de riesgos se convierten en los cimientos fundamentales para proteger la integridad, confidencialidad y disponibilidad de los sistemas, información y/o datos de una organización. En este sentido, el presente documento ofrece un análisis y exploración de diversas herramientas y técnicas utilizadas en la detección y protección contra amenazas en entornos digitales.  
 
 Desde la evaluación de la infraestructura de red hasta la detección de vulnerabilidades y pruebas con malware, cada aspecto abordado en este estudio representa un componente esencial en la estrategia integral de defensa cibernética. Comenzando con una exploración y entendimiento de catálogos de vulnerabilidades generales o en productos, siguiendo con la virtualización y aislamiento de sistemas para armar laboratorios de prueba, framework y herramientas para inteligencia de fuentes abiertas, también herramientas de escaneo de red, investigando cómo estas soluciones proporcionan una visión más amplia de la red de enlaces, identificando dispositivos, puertos abiertos y servicios en ejecución, sentando así las bases para comprender la estructura de la red y revelar posibles puntos de entrada para amenazas.  
 
@@ -94,8 +99,7 @@ Posteriormente, se aborda la evaluación de vulnerabilidades, donde se examinan 
 
 Finalmente, el estudio se adentra en las pruebas de malware, donde se simulan escenarios de infección y se exploran estrategias de recuperación. Esta parte del análisis nos sumerge en el complejo mundo de los ataques cibernéticos, donde la capacidad para identificar, contener y eliminar amenazas es esencial para preservar la triada de seguridad de la información. 
 
-\newpage
-
+\hfill \break 
 \section{\large Objetivo General}
 
 Explorar diversas herramientas y técnicas utilizadas en la identificación, evaluación y mitigación de riesgos en el ámbito de la ciberseguridad. 
@@ -109,10 +113,10 @@ Explorar diversas herramientas y técnicas utilizadas en la identificación, eva
 El Common Weakness Enumeration (CWE) es un diccionario o catálogo, que tiene principalmente la finalidad de identificar y clasificar vulnerabilidades comunes que pueden estar presente en los softwares para comprometer la seguridad de estos. El CWE sirve para:
 
 \begin{itemize}
-\item[] - Establecer una comunicación efectiva sobre vulnerabilidades.
-\item[] - Apoyar en la comprensión y entendimiento de los riesgos de seguridad, de esta forma adoptar las estrategias de mitigación idóneas para el caso.
-\item[] - Priorizar las vulnerabilidades que requieren atención urgente.
-\item[] - Guiar la implementación de soluciones basadas en las mejores prácticas de la industria.
+\item Establecer una comunicación efectiva sobre vulnerabilidades.
+\item Apoyar en la comprensión y entendimiento de los riesgos de seguridad, de esta forma adoptar las estrategias de mitigación idóneas para el caso.
+\item Priorizar las vulnerabilidades que requieren atención urgente.
+\item Guiar la implementación de soluciones basadas en las mejores prácticas de la industria.
 \end{itemize}
 
 \subsection{¿Qué es CVE?} 
@@ -120,9 +124,9 @@ El Common Weakness Enumeration (CWE) es un diccionario o catálogo, que tiene pr
 Common Vulnerabilities and Exposures (CVE) es una lista de vulnerabilidades y exposiciones de seguridad de la información de software y hardware, las cuales están divulgadas públicamente. El CVE sirve para:
 
 \begin{itemize}
-\item[] - Identificar de manera única vulnerabilidades específicas en productos tecnológicos.
-\item[] - Rastrear vulnerabilidades específicas en productos tecnológicos.
-\item[] - Posibilitar la coordinación e intercambio de información acerca de vulnerabilidades entre distintas organizaciones y herramientas de seguridad.
+\item Identificar de manera única vulnerabilidades específicas en productos tecnológicos.
+\item Rastrear vulnerabilidades específicas en productos tecnológicos.
+\item Posibilitar la coordinación e intercambio de información acerca de vulnerabilidades entre distintas organizaciones y herramientas de seguridad.
 \end{itemize}
 
 \subsection{Diferencia entre CWE y CVE} 
@@ -133,13 +137,13 @@ CVE se basa en vulnerabilidades específicas y conocidas en productos tecnológi
 
 El objeto de investigación para el desarrollo de esta actividad es Vulnerabilidades en Windows 10 publicadas en el año 2023.
 
-En el portal https://www.cvedetails.com se realizó búsqueda de vulnerabilidades bajo el filtro “Microsoft » Windows 10 : Security Vulnerabilities, CVEs, Published In 2023”, encontrando un total de 66, las cuales se resumen en la Figura 1.
+En el portal \url{https://www.cvedetails.com} se realizó búsqueda de vulnerabilidades bajo el filtro “Microsoft » Windows 10 : Security Vulnerabilities, CVEs, Published In 2023”, encontrando un total de 66, las cuales se resumen en la Figura \ref{tabla1}.
 
 \begin{figure}[H]
     \centering
     \caption{Resumen de vulnerabilidades para Windows 10 reportadas en 2023.}
-    \includegraphics[width=0.3\linewidth]{ac11.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
-    \label{fig:OverallEffect}
+    \includegraphics[width=0.4\linewidth]{ac11.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
+    \label{tabla1}
 \end{figure}
 
 \subsection{Top de Vulnerabilidades Comunes} 
@@ -184,7 +188,7 @@ Esta vulnerabilidad permite a un atacante enviar un mensaje especialmente diseñ
 
 \newpage
 
-\section{\large Actividad 2 : Reporte de Instalación y virtualización de un sistema operativo de seguridad}
+\section{\large Actividad 2}
 
 \subsection{¿Qué es VM?} 
 
@@ -211,7 +215,7 @@ La virtualización de sistema operativo permite la optimización en el uso de re
 
 Existen diversos softwares del hipervisor disponibles, sin embargo, para el desarrollo de esta actividad se seleccionó VirtualBox para la instalación.  
 
-El sitio oficial de VirtualBox es el https://www.virtualbox.org \noindent \citep{virtualbox}\\
+El sitio oficial de VirtualBox es el \url{https://www.virtualbox.org} \noindent \citep{virtualbox}\\
 
 El equipo base en donde se instaló el VirtualBox, trabaja con Sistema Operativo Windows, por lo que descargó la versión “7.0.18” del siguiente enlace: \url{https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe }
 
@@ -423,11 +427,11 @@ Es esencial para ingenieros de ciberseguridad disponer de un sistema operativo c
 
 \subsection{¿Qué es Docker?} 
 Permite a los desarrolladores a crear, compartir, ejecutar y verificar aplicaciones en cualquier lugar, sin necesidad de tediosa configuración o administración del entorno. 
-\noindent \maskCitet{docker}\\
+\noindent \citep{docker}\\
 
 Para esta actividad a los alumnos se les facilito el uso de las opciones de ejecutar docker desde un entorno local de pruebas por medio de la instalación en una maquina local o por medio del uso de play with docker.
 
-En esta oportunidad se escogió la herramienta play with docker \noindent\maskCitet{playwithdocker}\\ la cual es una herramienta de uso gratuito por la que el usuario puede hacer uso de hasta 5 instancias en paralelo por 4 horas de sesión.
+En esta oportunidad se escogió la herramienta play with docker \noindent \citep{playwithdocker}\\ la cual es una herramienta de uso gratuito por la que el usuario puede hacer uso de hasta 5 instancias en paralelo por 4 horas de sesión.
 
 \subsection{Uso de Docker} 
 
@@ -499,7 +503,7 @@ Al pinchar en el icono del puerto se abre una ventana con la página desplegada 
 
 \subsection{¿Qué es Phishing?} 
 Proviene de la palabra en inglés fishing que significa pescar. El phishing es un tipo de ataque que comienza con un señuelo cuando recibes un correo electrónico que parece ser de una remitente confiable, tiene un alto sentido de urgencia y te solicita una acción inmediata como abrir un enlace a un sitio falso, descargar archivos o enviar información personal como usuarios y contraseñas. 
-\noindent \maskCitet{phishing}\\
+\noindent \citep{phishing}\\
 
 \subsection{¿Qué es phishingquiz?} 
 
@@ -507,7 +511,7 @@ Es una herramienta que ayuda a identificar maniobras de intentos de phishing don
 
 \subsection{Respondiendo phishingquiz} 
 
-Para iniciar con la actividad ingresamos a la página Take Jigsaw’s phishing quiz. (s. f.-b). https://phishingquiz.withgoogle.com/  \noindent \maskCitet{phishingQuiz}\\  Luego seleccionamos el botón HACER EL TEST y se nos desplegara un pop up donde debemos ingresar nombre (real o ficticio) y correo electrónico. Luego hacemos clic en el botón EMPEZAR.
+Para iniciar con la actividad ingresamos a la página \url{https://phishingquiz.withgoogle.com/}  \noindent \citep{phishingQuiz}\\  Luego seleccionamos el botón HACER EL TEST y se nos desplegara un pop up donde debemos ingresar nombre (real o ficticio) y correo electrónico. Luego hacemos clic en el botón empezar.
 
 \begin{figure}[H]
     \centering
@@ -525,7 +529,7 @@ Se nos abrirá la primera pregunta de un total de 8, donde se nos consultar si l
     \label{fig:OverallEffect}
 \end{figure}
 
-Al analizar el primer test podemos considerar que es un correo de phishing debido a que el archivo adjunto supuestamente está en Google drive, pero no cumple con lo principal que es tener https (TLS activo), también el DNS del enlace no es un DNS valido de drive ya que el dns que se ocupa es https://drive.google.com/drive/
+Al analizar el primer test podemos considerar que es un correo de phishing debido a que el archivo adjunto supuestamente está en Google drive, pero no cumple con lo principal que es tener https (TLS activo), también el DNS del enlace no es un DNS valido de drive ya que el dns que se ocupa es \url{https://drive.google.com/drive/}
 
 \begin{figure}[H]
     \centering
@@ -579,7 +583,7 @@ El quinto caso es un mail común de envío de documento formato PDF. Podemos ver
     \label{fig:OverallEffect}
 \end{figure}
 
-El sexto quiz trata sobre los correos que recibimos normalmente cuando accedemos a nuestras cuentas de mail. Por lo general los correos de acceso de Gmail no indican que alguien tiene tu contraseña solo alertan de un inicio de sesión en un equipo con un sistema operativo y proporcionan un botón de enlace para verificar el historial de alertas de acceso de los últimos 28 días. También podemos verificar que el colocar el puntero sobre el botón este nos redirige a un enlace que no es enlace oficial de cuentas de Google https://myaccount.google.com/notifications  y ademas es un sitio sin TLS.
+El sexto quiz trata sobre los correos que recibimos normalmente cuando accedemos a nuestras cuentas de mail. Por lo general los correos de acceso de Gmail no indican que alguien tiene tu contraseña solo alertan de un inicio de sesión en un equipo con un sistema operativo y proporcionan un botón de enlace para verificar el historial de alertas de acceso de los últimos 28 días. También podemos verificar que el colocar el puntero sobre el botón este nos redirige a un enlace que no es enlace oficial de cuentas de Google \url{https://myaccount.google.com/notifications}  y ademas es un sitio sin TLS.
 
 \begin{figure}[H]
     \centering
@@ -608,7 +612,7 @@ El último quiz trata de cuando nos registramos en alguna página y se nos solic
     \label{fig:OverallEffect}
 \end{figure}
 
-Pero si analizamos en profundidad los enlaces a los cuales redirecciona podemos verificar que es un enlace valido https://www.tripit.com.
+Pero si analizamos en profundidad los enlaces a los cuales redirecciona podemos verificar que es un enlace valido \url{https://www.tripit.com.}
 
 \newpage
 
@@ -627,7 +631,7 @@ Dentro de los múltiples usos que se le pueden dar a OSINT Framework está la in
 ¿En qué fase el hacking ético se pudiese usar el OSINT Framework?
 Es en la fase de Reconocimiento donde principalmente se puede usar, ya que es la primera etapa del proceso, en donde el propósito es la recopilación de información sobre el objetivo sin interactuar directamente con él, esto puede contemplar: la identificación de nombres de dominio, direcciones IP, empleados, directivos, tecnologías y sistemas operativos en uso, entre otros.
 
-El acceso a OSINT Framework es a través de la siguiente web: https://osintframework.com/
+El acceso a OSINT Framework es a través de la siguiente web: \url{https://osintframework.com/}
 
 \begin{figure}[H]
 \centering
@@ -639,10 +643,10 @@ El acceso a OSINT Framework es a través de la siguiente web: https://osintframe
 La plataforma, para algunas herramientas establece 4 indicadores, los cuales describe en la parte superior derecha del sitio. Estos nos ayudan a identificar si las herramientas se tratan de:
 
 \begin{itemize}
-\item[] - (T): Enlace de una herramienta para instalar y ejecutar en nuestro equipo.
-\item[] - (D): Uso de Google Dork.
-\item[] - (R): Herramienta que requiere de un registro en una plataforma, previo a su uso.
-\item[] - (M): Aplicativo web, que en su URL se debe configurar o editar manualmente el término de búsqueda. 
+\item (T): Enlace de una herramienta para instalar y ejecutar en nuestro equipo.
+\item (D): Uso de Google Dork.
+\item (R): Herramienta que requiere de un registro en una plataforma, previo a su uso.
+\item (M): Aplicativo web, que en su URL se debe configurar o editar manualmente el término de búsqueda. 
 \end{itemize}
 
 \begin{figure}[H]
@@ -654,7 +658,7 @@ La plataforma, para algunas herramientas establece 4 indicadores, los cuales des
 
 \subsection{Social-Searcher}
 
-La herramienta seleccionada fue “Social-Searcher”, su sitio web es https://www.social-searcher.com/. Esta herramienta permite rastrear lo que se dice de una marca, empresa, persona, producto o servicio, ello a través del monitoreo en tiempo real de menciones en redes sociales y sitios web. En OSINT Framework se ubica dentro de la categoría “Social Networks”, a su vez en la subcategoría “Search”.
+La herramienta seleccionada fue “Social-Searcher”, su sitio web es \url{https://www.social-searcher.com/.} Esta herramienta permite rastrear lo que se dice de una marca, empresa, persona, producto o servicio, ello a través del monitoreo en tiempo real de menciones en redes sociales y sitios web. En OSINT Framework se ubica dentro de la categoría “Social Networks”, a su vez en la subcategoría “Search”.
 
 \begin{figure}[H]
 \centering
@@ -677,10 +681,10 @@ Social-Searcher tiene una versión gratuita y otras pagas, ofreciendo funciones 
 Esta herramienta facilita el monitore en tiempo real de menciones en la web y redes sociales, lo cual es de utilidad para:
 
 \begin{itemize}
-\item[] - Detectar Amenazas, por medio de la identificación de menciones sobre vulnerabilidades y/o ataques inminentes.
-\item[] - Analizar Sentimientos Implícitos, evaluando el tono de mensajes, publicaciones o interacciones respecto a una marca, empresa, producto o persona, con el fin de detectar posibles riesgos reputacionales.
-\item[] - Monitorear Influencers, con el seguimiento a personas o medios de comunicación influyentes que puedan impactar la seguridad y reputación de la empresa.
-\item[] - Identificar Alertas en Tiempo Real, recibiendo notificaciones de forma instantánea sobre menciones específicas.
+\item Detectar Amenazas, por medio de la identificación de menciones sobre vulnerabilidades y/o ataques inminentes.
+\item Analizar Sentimientos Implícitos, evaluando el tono de mensajes, publicaciones o interacciones respecto a una marca, empresa, producto o persona, con el fin de detectar posibles riesgos reputacionales.
+\item Monitorear Influencers, con el seguimiento a personas o medios de comunicación influyentes que puedan impactar la seguridad y reputación de la empresa.
+\item Identificar Alertas en Tiempo Real, recibiendo notificaciones de forma instantánea sobre menciones específicas.
 \end{itemize}
 
 \subsection{Etapa de Reconocimiento de Hancking Ético y Social-Searcher}
@@ -688,10 +692,10 @@ Esta herramienta facilita el monitore en tiempo real de menciones en la web y re
 La herramienta Social-Searcher puede aportar significativamente en la etapa de reconocimiento del Hacking Ético al ser una fuente de:
 
 \begin{itemize}
-\item[] - Recopilación de Información, entregando contenido sobre una organización o individuo derivada del monitoreo de menciones y actividades en redes sociales y/o la web.
-\item[] - Detección de Exposiciones, encontrar datos sensibles que puedan haber sido publicados de forma accidentalmente o no accidental.
-\item[] - Detección de Amenazas Internas o Externas, analizando los sentimientos impresos en las publicaciones de trabajadores, consumidores o público en general.
-\item[] - Identificación de Actores Clave, reconociendo a personas que podrían representar una fuente de información relevante u objetivos de ataques de ingeniería social.
+\item Recopilación de Información, entregando contenido sobre una organización o individuo derivada del monitoreo de menciones y actividades en redes sociales y/o la web.
+\item Detección de Exposiciones, encontrar datos sensibles que puedan haber sido publicados de forma accidentalmente o no accidental.
+\item Detección de Amenazas Internas o Externas, analizando los sentimientos impresos en las publicaciones de trabajadores, consumidores o público en general.
+\item Identificación de Actores Clave, reconociendo a personas que podrían representar una fuente de información relevante u objetivos de ataques de ingeniería social.
 \end{itemize}
 
 \subsection{Debilidades que Considerar Respecto al Uso de Social-Searcher}
@@ -699,16 +703,16 @@ La herramienta Social-Searcher puede aportar significativamente en la etapa de r
 Social-Searcher como herramienta tiene algunas limitaciones o propiedades desfavorables que considerar ante su uso, tales como:
 
 \begin{itemize}
-\item[] - Limitaciones funcionales en versión gratuita, en su mayoría las características avanzadas sólo están disponibles en las versiones pagas.
-\item[] - Dependencia de fuentes públicas, lo que puede limitar la profundidad del análisis, así como la veracidad de la información.
-\item[] - Ruido en los datos, lo que implica el tratamiento de una gran cantidad de datos irrelevantes, para hallar información crítica.
-\item[] - Plantea preocupaciones respecto a la privacidad y ética en la recopilación de datos.
+\item Limitaciones funcionales en versión gratuita, en su mayoría las características avanzadas sólo están disponibles en las versiones pagas.
+\item Dependencia de fuentes públicas, lo que puede limitar la profundidad del análisis, así como la veracidad de la información.
+\item Ruido en los datos, lo que implica el tratamiento de una gran cantidad de datos irrelevantes, para hallar información crítica.
+\item Plantea preocupaciones respecto a la privacidad y ética en la recopilación de datos.
 \end{itemize}
 
 \subsection{Caso Filtración Banco Santander}
 
 Para el desarrollo del ejercicio con la herramienta Social-Searcher se seleccionó la temática de “Filtración de Datos del Banco Santander”. 
-En primer lugar, se debe acceder al sitio web de la herramienta (https://www.social-searcher.com), se debe registrar y luego validar la cuenta por medio de un correo electrónico que se enviará a la dirección registrada.
+En primer lugar, se debe acceder al sitio web de la herramienta (\url{https://www.social-searcher.com}), se debe registrar y luego validar la cuenta por medio de un correo electrónico que se enviará a la dirección registrada.
 
 \begin{figure}[H]
 \centering
@@ -901,7 +905,7 @@ Payku es una plataforma de pagos, para pequeñas y medianas empresas con el fin 
 
 \subsubsection{Shodan}
 
-Se debe ingresar a la URL https://www.shodan.io/ y en el buscador colocamos app.payku.cl.
+Se debe ingresar a la URL \url{https://www.shodan.io/} y en el buscador colocamos app.payku.cl.
 
 \begin{figure}[H]
     \centering
@@ -910,7 +914,7 @@ Se debe ingresar a la URL https://www.shodan.io/ y en el buscador colocamos app.
     \label{fig:OverallEffect}
 \end{figure}
 
-En la Figura 47 (cambiar) se puede observar que el motor no tiene ninguna información de esta URL, esto puede ser porque el representante de Payku solicito que se bajara la información de Shodan.
+En la Figura 71 se puede observar que el motor no tiene ninguna información de esta URL, esto puede ser porque el representante de Payku solicito que se bajara la información de Shodan.
 
 \begin{figure}[H]
     \centering
@@ -921,7 +925,7 @@ En la Figura 47 (cambiar) se puede observar que el motor no tiene ninguna inform
 
 \subsubsection{Zoomeye}
 
-Se debe ingresar a la URL https://www.zoomeye.hk/ y en el buscador colocamos app.payku.cl.
+Se debe ingresar a la URL \url{https://www.zoomeye.hk/} y en el buscador colocamos app.payku.cl.
 
 \begin{figure}[H]
     \centering
@@ -930,7 +934,7 @@ Se debe ingresar a la URL https://www.zoomeye.hk/ y en el buscador colocamos app
     \label{fig:OverallEffect}
 \end{figure}
 
-El motor Zoomeye consigue el resultado mostrado en la Figura 48 (cambiar).
+El motor Zoomeye consigue el resultado mostrado en la Figura 73.
 
 \begin{figure}[H]
     \centering
@@ -950,7 +954,7 @@ Teniendo un resultado, Zoomeye no tiene información relevantes de puertos ni se
 
 \subsubsection{Censys}
 
-Se debe ingresar a la URL https://search.censys.io/ y en el buscador colocamos app.payku.cl.
+Se debe ingresar a la URL \url{https://search.censys.io}/ y en el buscador colocamos app.payku.cl.
 
 \begin{figure}[H]
     \centering
@@ -959,7 +963,7 @@ Se debe ingresar a la URL https://search.censys.io/ y en el buscador colocamos a
     \label{fig:OverallEffect}
 \end{figure}
 
-El motor Censys consigue el resultado mostrado en la Figura 48 (cambiar).
+El motor Censys consigue el resultado mostrado en la Figura 76.
 
 \begin{figure}[H]
     \centering
@@ -1050,8 +1054,8 @@ nmap -sV -p80,443,8010 juice-shop.herokuapp.com
 \end{lstlisting}
 
 \begin{itemize}
-  \item[] - sV: Corresponde a la opción de búsqueda de versiones.
-  \item[] - p: Puertos a escanear (si se desean escanear los mil más comunes usar -p-).
+  \item sV: Corresponde a la opción de búsqueda de versiones.
+  \item p: Puertos a escanear (si se desean escanear los mil más comunes usar -p-).
 \end{itemize}
 
 
@@ -1086,8 +1090,8 @@ nmap -sC -p80,443,8010 juice-shop.herokuapp.com
 \end{lstlisting}
 
 \begin{itemize}
-  \item[] - sC: Corresponde a la opción de scripts Nmap.
-  \item[] - p: Puertos a escanear (si se desean escanear los mil más comunes usar -p-).
+  \item sC: Corresponde a la opción de scripts Nmap.
+  \item p: Puertos a escanear (si se desean escanear los mil más comunes usar -p-).
 \end{itemize}
 
 \begin{figure}[H]
@@ -1142,10 +1146,10 @@ Luego seleccionaremos el tipo de escaneo que deseamos realizar, para esta activi
 Para culminar la creación del escaneo es necesario llenar la información referente al escaneo, siendo los campos necesarios los siguientes:
 
 \begin{itemize}
-  \item[] - Name: nombre que se desea colocar al escaneo.
-  \item[] - Description: descripción del escaneo.
-\item[] - Folder: carpeta donde se guardará los resultados obtenidos.
-\item[] - Targets: url´s o IP´s a las que se desean escanear.
+\item  Name: nombre que se desea colocar al escaneo.
+\item Description: descripción del escaneo.  																 
+\item Folder: carpeta donde se guardará los resultados obtenidos.
+\item Targets: url´s o IP´s a las que se desean escanear.
 \end{itemize}
 
 \begin{figure}[H]
@@ -1208,7 +1212,7 @@ Para esta tarea vamos a realizar pruebas de infección y posible recuperación d
 
 \subsection{Infección de Malware Ransomware} 
 
-Primero descargamos desde nuestra máquina virtual el repositorio de GitHub con el comando git clone https://github.com/ytisf/theZoo.git.
+Primero descargamos desde nuestra máquina virtual el repositorio de GitHub con el comando git clone \url{https://github.com/ytisf/theZoo.git.}
 
 \begin{figure}[H]
     \centering
@@ -1266,13 +1270,14 @@ Debemos descomprimir los 3 archivos adjuntos en una carpeta y debemos agregar la
     \label{fig:OverallEffect}
 \end{figure}
 
-Se probará con el primer archivo de la lista. Al agregar la extensión nos podemos percatar que el archivo cambio de icono.
+Se probará con el primer archivo de la lista. Al agregar la extensión nos podemos percatar que el archivo cambio de icono ver figura \ref{figuraCambioIcono}
 
+\hfill \break
 \begin{figure}[H]
     \centering
     \caption{Icono de TeslaCrypt.}
     \includegraphics[width=0.1\linewidth]{ram7.png} % This is setting the figure to be .75x the width of the line. This can go all the way from 0.1 to 1 (and beyond, but then you're outside the page).
-    \label{fig:OverallEffect}
+    \label{figuraCambioIcono}
 \end{figure}
 
 Ahora ejecutaremos el archivo.
@@ -1324,13 +1329,13 @@ En la ventana donde se nos indica el rescate podemos verificar que nos muestra d
 
 \subsection{Información sobre TeslaCrypt} 
 
-1° Desde la página Oficial de kaspersky (Ataques de ransomware TeslaCrypt | ¿Qué es TeslaCrypt? | Definición de la amenaza (kaspersky.es)) encontramos información sobre este virus.
+1° Desde la página Oficial de kaspersky \citep{teslacrypt} \url{https://www.kaspersky.es/resource-center/threats/teslacrypt} encontramos información sobre este virus.
 
 TeslaCrypt data del año 2015, entre los usuarios mal vulnerados y potencialmente en riesgo se comenta que son jugadores de video juegos.
 
 Desde la página oficial de kaspersky no describe una solución si el usuario ya se encuentra infectado. Solo indica que el antivirus de dicha marca lo detecta como programa malicioso Trojan-Ransom.Win32.Bitman.tk y protege al usuario contra la amenaza. Por lo que en primera conclusión podríamos comentar que se trata de un virus que no es por parte de la empresa de seguridad si no preventivo. 
 
-2° blog 360totalsecurity ¿Qué es el ransomware TeslaCrypt y cómo borrarlo? (360totalsecurity.com) Nos indica el mismo resumen que la información de kaspersky pero nos detalla que los autores del ransomware compartieron la llave maestra para desencriptar los archivos (adjuntan enlace de donde salio la noticia TeslaCrypt shuts down and Releases Master Decryption Key (bleepingcomputer.com) )
+2° blog 360totalsecurity \citep{blog360} ¿Qué es el ransomware TeslaCrypt y cómo borrarlo?  Nos indica el mismo resumen que la información de kaspersky pero nos detalla que los autores del ransomware compartieron la llave maestra para desencriptar los archivos (adjuntan enlace de donde salio la noticia TeslaCrypt shuts down and Releases Master Decryption Key (bleepingcomputer.com) )
 
 En el blog sale un pequeño resumen de cómo utilizar una herramienta desarrollada por un investigador apodado "BloodDolly" la herramienta lleva por nombre TeslaDecoder.
 
@@ -1350,10 +1355,10 @@ Ejecutamos TeslaDecoder desde nuestra máquina virtual
 
 Al momento de iniciar la aplicación podemos visualizar en el visor de eventos de la ventana principal de la aplicación un error. Este detalle que no puede reconocer la llave por ende la llave de desencriptación no está presente en los datos del archivo. Por tanto, no puede realizar el rescate de los archivos.
 
-También se prueba una llave maestra compartida de la página de bleepingcomputer pero tampoco se tuvieron buenos resultados .440A241DD80FCC5664E861989DB716E08CE627D8D40C7EA360AE855C727A49EE
+También se prueba una llave maestra compartida de la página de bleepingcomputer  \citep{blogteslacrypt} pero tampoco se tuvieron buenos resultados.
 Para esta última prueba la aplicación nos arrojó malos resultados en cuanto a desencriptar archivos.
 
-Ya que de los archivos verificados no logro desencriptar ninguno. 
+De los archivos verificados TeslaDecoder no logro desencriptar ninguno. 
 
 \begin{figure}[H]
     \centering
@@ -1391,15 +1396,12 @@ Podemos determinar que para el desarrollo de este último ítem la prueba de los
 
 \section{\large Conclusión}
 
-En el vasto y dinámico mundo de la ciberseguridad, la detección y protección contra amenazas cibernéticas se ha convertido en una tarea de vital importancia para salvaguardar la integridad de los sistemas y la confidencialidad de los datos. A lo largo de este análisis exhaustivo, hemos explorado diversas herramientas y técnicas utilizadas en la identificación y mitigación de riesgos en el entorno digital, desde el escaneo de red hasta la evaluación de vulnerabilidades y las pruebas de malware.
+La ciberseguridad es un mundo amplio y dinámico, donde la detección y protección contra amenazas cibernéticas se ha transformado en prioridad en el último tiempo, convirtiéndose en una tarea vital para salvaguardar la integridad, confidencialidad y disponibilidad de sistemas, datos e información de las organizaciones. A lo largo del desarrollo este análisis exhaustivo, se exploraron múltiples herramientas y técnicas, las cuales son utilizadas en la identificación y guía de mitigación de riesgos en entornos digitales, desde el escaneo de red hasta la evaluación de vulnerabilidades y pruebas de malware. 
+Uno de los principales hallazgos de este estudio es la importancia de comprender la estructura de la red y los puntos de entrada potenciales para amenazas. Las herramientas de escaneo de red proporcionan una visión detallada de la topología de la red, identificando dispositivos, puertos abiertos y servicios en ejecución, lo que permite a los profesionales de seguridad cibernética tomar medidas proactivas para fortalecer la seguridad de la red. 
+Además, hemos explorado la evaluación de vulnerabilidades como un componente esencial en la estrategia de defensa cibernética. Estas herramientas avanzadas permiten detectar debilidades en la seguridad de los sistemas, proporcionando una evaluación detallada del riesgo y recomendaciones para su mitigación. Al abordar estas vulnerabilidades de manera proactiva, las organizaciones pueden fortalecer sus defensas cibernéticas y reducir la exposición a posibles amenazas. 
+Por último, hemos examinado en las pruebas de malware como una medida crucial para simular escenarios de ataque y desarrollar estrategias de respuesta efectivas. A través de la simulación de infecciones y la exploración de técnicas de recuperación, los profesionales de seguridad pueden mejorar su capacidad para identificar, contener y eliminar amenazas, protegiendo así la integridad de los sistemas y la confidencialidad de los datos. 
+En conclusión, este documento ofrece una visión integral y detallada de las prácticas y herramientas esenciales en la identificación y defensa contra amenazas cibernéticas. Al proporcionar una comprensión profunda de los conceptos y técnicas fundamentales en ciberseguridad, este estudio ofrece una base sólida introductoria para la investigación y el desarrollo continuo en este campo crucial y en constante evolución.
 
-Uno de los principales hallazgos de este estudio es la importancia de comprender la estructura de la red y los puntos de entrada potenciales para amenazas. Las herramientas de escaneo de red proporcionan una visión detallada de la topología de la red, identificando dispositivos, puertos abiertos y servicios en ejecución, lo que permite a los profesionales de seguridad cibernética tomar medidas proactivas para fortalecer la seguridad de la red.
-
-Además, hemos explorado la evaluación de vulnerabilidades como un componente esencial en la estrategia de defensa cibernética. Estas herramientas avanzadas permiten detectar debilidades en la seguridad de los sistemas, proporcionando una evaluación detallada del riesgo y recomendaciones para su mitigación. Al abordar estas vulnerabilidades de manera proactiva, las organizaciones pueden fortalecer sus defensas cibernéticas y reducir la exposición a posibles amenazas.
-
-Por último, hemos examinado las pruebas de malware como una medida crucial para simular escenarios de ataque y desarrollar estrategias de respuesta efectivas. A través de la simulación de infecciones y la exploración de técnicas de recuperación, los profesionales de seguridad pueden mejorar su capacidad para identificar, contener y eliminar amenazas, protegiendo así la integridad de los sistemas y la confidencialidad de los datos.
-
-En conclusión, este documento ofrece una visión integral y detallada de las prácticas y herramientas esenciales en la defensa contra amenazas cibernéticas. Al proporcionar una comprensión profunda de los conceptos y técnicas fundamentales en ciberseguridad, este estudio ofrece una base sólida para la investigación y el desarrollo continuo en este campo crucial y en constante evolución.
 
 \newpage
 % Referencias

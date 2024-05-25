@@ -1,56 +1,64 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\large Introducción}{1}{section*.4}%
-\contentsline {section}{\large Objetivo General}{3}{section*.5}%
-\contentsline {section}{\large Actividad 1}{4}{section*.6}%
-\contentsline {subsection}{¿Qué es CWE?}{4}{section*.7}%
-\contentsline {subsection}{¿Qué es CVE?}{4}{section*.8}%
-\contentsline {subsection}{Diferencia entre CWE y CVE}{4}{section*.9}%
-\contentsline {subsection}{Análisis en CVE Details}{5}{section*.10}%
-\contentsline {subsection}{Top de Vulnerabilidades Comunes}{5}{section*.12}%
-\contentsline {subsection}{Definición de las Vulnerabilidades en el Top}{6}{section*.14}%
-\contentsline {subsubsection}{Microsoft Message Queuing Remote Code Execution Vulnerability}{6}{section*.15}%
-\contentsline {subsubsection}{Windows Kernel Elevation of Privilege Vulnerability}{6}{section*.16}%
-\contentsline {subsubsection}{Microsoft PostScript and PCL6 Class Printer Driver Information Disclosure Vulnerability}{7}{section*.17}%
-\contentsline {subsubsection}{Microsoft Message Queuing Denial of Service Vulnerability}{7}{section*.18}%
-\contentsline {section}{\large Actividad 2}{8}{section*.19}%
-\contentsline {section}{\large Actividad 3}{9}{section*.20}%
-\contentsline {subsection}{¿Qué es Docker?}{9}{section*.21}%
-\contentsline {subsection}{Uso de Docker}{9}{section*.22}%
-\contentsline {section}{\large Actividad 4}{13}{section*.29}%
-\contentsline {subsection}{¿Qué es Phishing?}{13}{section*.30}%
-\contentsline {subsection}{¿Qué es phishingquiz?}{13}{section*.31}%
-\contentsline {subsection}{Respondiendo phishingquiz}{13}{section*.32}%
-\contentsline {section}{\large Actividad 5}{21}{section*.44}%
-\contentsline {subsection}{¿Qué es OSINT Framework?}{21}{section*.45}%
-\contentsline {subsection}{¿Qué uso se le puede dar a OSINT Framework?}{21}{section*.46}%
-\contentsline {subsection}{¿En qué fase el hacking ético se pudiese usar el OSINT Framework?}{21}{section*.47}%
-\contentsline {subsection}{Social-Searcher}{23}{section*.50}%
-\contentsline {subsection}{Utilidades de Social-Searcher en Ciberseguridad}{24}{section*.53}%
-\contentsline {subsection}{Etapa de Reconocimiento de Hancking Ético y Social-Searcher}{25}{section*.54}%
-\contentsline {subsection}{Debilidades que Considerar Respecto al Uso de Social-Searcher}{25}{section*.55}%
-\contentsline {subsection}{Caso Filtración Banco Santander}{26}{section*.56}%
-\contentsline {section}{\large Actividad 6}{40}{section*.80}%
-\contentsline {subsection}{¿Qué es un motor de búsqueda?}{40}{section*.81}%
-\contentsline {subsection}{Caso de estudio: Payku}{40}{section*.82}%
-\contentsline {subsection}{Recolección pasiva de información a través de motores de búsqueda}{40}{section*.83}%
-\contentsline {subsubsection}{Shodan}{40}{section*.84}%
-\contentsline {subsubsection}{Zoomeye}{41}{section*.87}%
-\contentsline {subsubsection}{Censys}{43}{section*.91}%
-\contentsline {section}{\large Actividad 7}{45}{section*.95}%
-\contentsline {subsection}{¿Qué es Nmap?}{45}{section*.96}%
-\contentsline {subsection}{Caso juice-shop.herokuapp.com}{45}{section*.97}%
-\contentsline {subsection}{Búsqueda de puertos activos}{45}{section*.98}%
-\contentsline {subsection}{Búsqueda de versiones de servicios}{46}{section*.101}%
-\contentsline {subsection}{Búsqueda de vulnerabilidades en servicios utilizando Scripts de Nmap}{47}{section*.104}%
-\contentsline {section}{\large Actividad 8}{50}{section*.106}%
-\contentsline {subsection}{¿Qué es Nessus?}{50}{section*.107}%
-\contentsline {subsection}{Caso juice-shop.herokuapp.com}{50}{section*.108}%
-\contentsline {subsection}{Creación de escaneo Nessus }{50}{section*.109}%
-\contentsline {subsection}{Iniciar escaneo}{52}{section*.113}%
-\contentsline {subsection}{Resultados de escaneo}{53}{section*.115}%
-\contentsline {section}{\large Actividad 9}{55}{section*.118}%
-\contentsline {subsection}{Infección de Malware Ransomware}{55}{section*.119}%
-\contentsline {subsection}{Información sobre TeslaCrypt}{61}{section*.132}%
-\contentsline {subsection}{Ejecutando TeslaDecoder}{62}{section*.133}%
-\contentsline {section}{\large Conclusión}{67}{section*.138}%
+\contentsline {section}{\large Objetivo General}{2}{section*.5}%
+\contentsline {section}{\large Actividad 1}{3}{section*.6}%
+\contentsline {subsection}{¿Qué es CWE?}{3}{section*.7}%
+\contentsline {subsection}{¿Qué es CVE?}{3}{section*.8}%
+\contentsline {subsection}{Diferencia entre CWE y CVE}{3}{section*.9}%
+\contentsline {subsection}{Análisis en CVE Details}{4}{section*.10}%
+\contentsline {subsection}{Top de Vulnerabilidades Comunes}{4}{section*.12}%
+\contentsline {subsection}{Definición de las Vulnerabilidades en el Top}{5}{section*.14}%
+\contentsline {subsubsection}{Microsoft Message Queuing Remote Code Execution Vulnerability}{5}{section*.15}%
+\contentsline {subsubsection}{Windows Kernel Elevation of Privilege Vulnerability}{5}{section*.16}%
+\contentsline {subsubsection}{Microsoft PostScript and PCL6 Class Printer Driver Information Disclosure Vulnerability}{6}{section*.17}%
+\contentsline {subsubsection}{Microsoft Message Queuing Denial of Service Vulnerability}{6}{section*.18}%
+\contentsline {section}{\large Actividad 2}{7}{section*.19}%
+\contentsline {subsection}{¿Qué es VM?}{7}{section*.20}%
+\contentsline {subsection}{¿Cuál es la Utilidad de la Virtualización de Sistema Operativo? }{7}{section*.21}%
+\contentsline {subsection}{¿Qué es Kali Linux? }{8}{section*.22}%
+\contentsline {subsection}{Instalación de Virtualizador }{8}{section*.23}%
+\contentsline {subsection}{Instalación de Sistema Operativo Virtualizado}{13}{section*.33}%
+\contentsline {subsection}{Configuración de Sistema Operativo – Kali Linux}{16}{section*.41}%
+\contentsline {subsection}{Análisis - Uso de Kali Linux Virtualizado}{19}{section*.50}%
+\contentsline {section}{\large Actividad 3}{20}{section*.51}%
+\contentsline {subsection}{¿Qué es Docker?}{20}{section*.52}%
+\contentsline {subsection}{Uso de Docker}{20}{section*.53}%
+\contentsline {section}{\large Actividad 4}{23}{section*.60}%
+\contentsline {subsection}{¿Qué es Phishing?}{23}{section*.61}%
+\contentsline {subsection}{¿Qué es phishingquiz?}{24}{section*.62}%
+\contentsline {subsection}{Respondiendo phishingquiz}{24}{section*.63}%
+\contentsline {section}{\large Actividad 5}{31}{section*.75}%
+\contentsline {subsection}{¿Qué es OSINT Framework?}{31}{section*.76}%
+\contentsline {subsection}{¿Qué uso se le puede dar a OSINT Framework?}{31}{section*.77}%
+\contentsline {subsection}{¿En qué fase el hacking ético se pudiese usar el OSINT Framework?}{31}{section*.78}%
+\contentsline {subsection}{Social-Searcher}{33}{section*.81}%
+\contentsline {subsection}{Utilidades de Social-Searcher en Ciberseguridad}{34}{section*.84}%
+\contentsline {subsection}{Etapa de Reconocimiento de Hancking Ético y Social-Searcher}{35}{section*.85}%
+\contentsline {subsection}{Debilidades que Considerar Respecto al Uso de Social-Searcher}{35}{section*.86}%
+\contentsline {subsection}{Caso Filtración Banco Santander}{36}{section*.87}%
+\contentsline {section}{\large Actividad 6}{49}{section*.111}%
+\contentsline {subsection}{¿Qué es un motor de búsqueda?}{49}{section*.112}%
+\contentsline {subsection}{Caso de estudio: Payku}{49}{section*.113}%
+\contentsline {subsection}{Recolección pasiva de información a través de motores de búsqueda}{49}{section*.114}%
+\contentsline {subsubsection}{Shodan}{49}{section*.115}%
+\contentsline {subsubsection}{Zoomeye}{50}{section*.118}%
+\contentsline {subsubsection}{Censys}{52}{section*.122}%
+\contentsline {section}{\large Actividad 7}{54}{section*.126}%
+\contentsline {subsection}{¿Qué es Nmap?}{54}{section*.127}%
+\contentsline {subsection}{Caso juice-shop.herokuapp.com}{54}{section*.128}%
+\contentsline {subsection}{Búsqueda de puertos activos}{54}{section*.129}%
+\contentsline {subsection}{Búsqueda de versiones de servicios}{55}{section*.132}%
+\contentsline {subsection}{Búsqueda de vulnerabilidades en servicios utilizando Scripts de Nmap}{56}{section*.135}%
+\contentsline {section}{\large Actividad 8}{59}{section*.137}%
+\contentsline {subsection}{¿Qué es Nessus?}{59}{section*.138}%
+\contentsline {subsection}{Caso juice-shop.herokuapp.com}{59}{section*.139}%
+\contentsline {subsection}{Creación de escaneo Nessus }{59}{section*.140}%
+\contentsline {subsection}{Iniciar escaneo}{61}{section*.144}%
+\contentsline {subsection}{Resultados de escaneo}{62}{section*.146}%
+\contentsline {section}{\large Actividad 9}{64}{section*.149}%
+\contentsline {subsection}{Infección de Malware Ransomware}{64}{section*.150}%
+\contentsline {subsection}{Información sobre TeslaCrypt}{71}{section*.163}%
+\contentsline {subsection}{Ejecutando TeslaDecoder}{72}{section*.164}%
+\contentsline {section}{\large Conclusión}{77}{section*.169}%
+\contentsline {section}{\large \textbf {Referencias}}{79}{section*.170}%

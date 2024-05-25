@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.19)  24 MAY 2024 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.19)  24 MAY 2024 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,6 +811,10 @@ ent.sty
 vosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
+(C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/tools\indent
+first.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.st
 y
 \UL@box=\box66
@@ -891,8 +895,8 @@ tings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
 ))
 Package: listings 2024/03/11 1.10a (Carsten Heinz)
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/parskip\pars
 kip.sty
@@ -901,6 +905,24 @@ Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helve
 t.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\rag
+ged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip91
+\RaggedLeftLeftskip=\skip92
+\RaggedRightLeftskip=\skip93
+\CenteringRightskip=\skip94
+\RaggedLeftRightskip=\skip95
+\RaggedRightRightskip=\skip96
+\CenteringParfillskip=\skip97
+\RaggedLeftParfillskip=\skip98
+\RaggedRightParfillskip=\skip99
+\JustifyingParfillskip=\skip100
+\CenteringParindent=\skip101
+\RaggedLeftParindent=\skip102
+\RaggedRightParindent=\skip103
+\JustifyingParindent=\skip104
 )
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pd
 flscape.sty
@@ -1156,9 +1178,6 @@ LaTeX Warning: Label `fig:OverallEffect' multiply defined.
 LaTeX Warning: Label `fig:OverallEffect' multiply defined.
 
 
-LaTeX Warning: Label `fig:OverallEffect' multiply defined.
-
-
 LaTeX Warning: Label `tab:table_words' multiply defined.
 
 
@@ -1169,9 +1188,6 @@ LaTeX Warning: Label `fig:OverallEffect' multiply defined.
 
 
 LaTeX Warning: Label `tab:table_words' multiply defined.
-
-
-LaTeX Warning: Label `fig:OverallEffect' multiply defined.
 
 
 LaTeX Warning: Label `fig:OverallEffect' multiply defined.
@@ -1245,24 +1261,24 @@ LaTeX Warning: Label `fig:OverallEffect' multiply defined.
 )
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 \c@maskedRefs=\count336
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/apacite\span
@@ -1331,7 +1347,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 topdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 67.
  (test.out) (test.out)
 \@outlinefile=\write7
 \openout7 = `test.out'.
@@ -1345,677 +1361,788 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
 \c@lstlisting=\count343
-<mayor.png, id=226, 626.34pt x 307.1475pt>
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.65 \includegraphics[width=0.5]{mayor.png}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.65 \includegraphics[width=0.5]{mayor.png}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: mayor.png Graphic file (type png)
-<use mayor.png>
-Package pdftex.def Info: mayor.png  used on input line 65.
-(pdftex.def)             Requested size: 0.5pt x 0.2437pt.
-[1
+ [1
 
 {C:/Users/Gustavo Landaeta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:
 /Users/Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.
-enc} <./mayor.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.97 
-      [1] [2] [3] [4]
-<ac11.png, id=250, 251.43938pt x 284.56313pt>
-File: ac11.png Graphic file (type png)
-<use ac11.png>
-Package pdftex.def Info: ac11.png  used on input line 142.
-(pdftex.def)             Requested size: 140.92793pt x 159.4932pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-53.
+enc}] (test.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-53.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-153.
+6.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.f
 d
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-153.
+6.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.f
 d
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 153.
+(Font)              <10.95> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 153.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 153.
+(Font)              <6> on input line 6.
+ [1] [2])
+\tf@toc=\write8
+\openout8 = `test.toc'.
 
-Overfull \hbox (36.44023pt too wide) in paragraph at lines 153--164
- [][] 
+ [3] (test.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+ [4] [5] [6] [7])
+\tf@lof=\write9
+\openout9 = `test.lof'.
+
+ [8] (test.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lot=\write10
+\openout10 = `test.lot'.
+
+ [9]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 
+       [1]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
  []
 
-[5 <./ac11.png>] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-17.
+[2] [3]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+40.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<imagenCap2/1.jpg, id=281, 450.18187pt x 227.34938pt>
+<ac11.png, id=570, 251.43938pt x 284.56313pt>
+File: ac11.png Graphic file (type png)
+<use ac11.png>
+Package pdftex.def Info: ac11.png  used on input line 145.
+(pdftex.def)             Requested size: 187.89914pt x 212.65326pt.
+
+Overfull \hbox (36.44023pt too wide) in paragraph at lines 156--167
+ [][] 
+ []
+
+[4 <./ac11.png>] [5] [6] [7]
+<imagenCap2/1.jpg, id=596, 450.18187pt x 227.34938pt>
 File: imagenCap2/1.jpg Graphic file (type jpg)
 <use imagenCap2/1.jpg>
-Package pdftex.def Info: imagenCap2/1.jpg  used on input line 222.
+Package pdftex.def Info: imagenCap2/1.jpg  used on input line 225.
 (pdftex.def)             Requested size: 281.85587pt x 142.34624pt.
- [9]
-<imagenCap2/2.png, id=290, 413.29407pt x 362.10281pt>
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
+
+ []
+
+<imagenCap2/2.png, id=604, 413.29407pt x 362.10281pt>
 File: imagenCap2/2.png Graphic file (type png)
 <use imagenCap2/2.png>
-Package pdftex.def Info: imagenCap2/2.png  used on input line 233.
+Package pdftex.def Info: imagenCap2/2.png  used on input line 236.
 (pdftex.def)             Requested size: 234.8775pt x 205.78743pt.
-<imagenCap2/3.png, id=291, 390.45876pt x 348.30125pt>
+<imagenCap2/3.png, id=605, 390.45876pt x 348.30125pt>
 File: imagenCap2/3.png Graphic file (type png)
 <use imagenCap2/3.png>
-Package pdftex.def Info: imagenCap2/3.png  used on input line 243.
+Package pdftex.def Info: imagenCap2/3.png  used on input line 246.
 (pdftex.def)             Requested size: 234.8775pt x 209.51913pt.
- [10 <./imagenCap2/1.jpg> <./imagenCap2/2.png>]
-<imagenCap2/4.png, id=299, 392.46625pt x 347.79938pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
+
+ []
+
+[9 <./imagenCap2/1.jpg> <./imagenCap2/2.png>]
+<imagenCap2/4.png, id=612, 392.46625pt x 347.79938pt>
 File: imagenCap2/4.png Graphic file (type png)
 <use imagenCap2/4.png>
-Package pdftex.def Info: imagenCap2/4.png  used on input line 251.
+Package pdftex.def Info: imagenCap2/4.png  used on input line 254.
 (pdftex.def)             Requested size: 234.8775pt x 208.15053pt.
- [11 <./imagenCap2/3.png>]
-<imagenCap2/5.png, id=306, 391.4625pt x 345.29pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--256
+
+ []
+
+<imagenCap2/5.png, id=613, 391.4625pt x 345.29pt>
 File: imagenCap2/5.png Graphic file (type png)
 <use imagenCap2/5.png>
-Package pdftex.def Info: imagenCap2/5.png  used on input line 259.
+Package pdftex.def Info: imagenCap2/5.png  used on input line 262.
 (pdftex.def)             Requested size: 234.8775pt x 207.17558pt.
-<imagenCap2/6.png, id=307, 391.4625pt x 345.79187pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--264
+
+ []
+
+[10 <./imagenCap2/3.png> <./imagenCap2/4.png>]
+<imagenCap2/6.png, id=620, 391.4625pt x 345.79187pt>
 File: imagenCap2/6.png Graphic file (type png)
 <use imagenCap2/6.png>
-Package pdftex.def Info: imagenCap2/6.png  used on input line 265.
+Package pdftex.def Info: imagenCap2/6.png  used on input line 268.
 (pdftex.def)             Requested size: 234.8775pt x 207.47672pt.
-
-[12 <./imagenCap2/4.png> <./imagenCap2/5.png>]
-<imagenCap2/7.png, id=317, 392.96812pt x 347.2975pt>
+<imagenCap2/7.png, id=621, 392.96812pt x 347.2975pt>
 File: imagenCap2/7.png Graphic file (type png)
 <use imagenCap2/7.png>
-Package pdftex.def Info: imagenCap2/7.png  used on input line 273.
+Package pdftex.def Info: imagenCap2/7.png  used on input line 276.
 (pdftex.def)             Requested size: 234.8775pt x 207.5852pt.
-<imagenCap2/8.png, id=318, 393.47pt x 347.2975pt>
+ [11 <./imagenCap2/5.png> <./imagenCap2/6.png>]
+<imagenCap2/8.png, id=628, 393.47pt x 347.2975pt>
 File: imagenCap2/8.png Graphic file (type png)
 <use imagenCap2/8.png>
-Package pdftex.def Info: imagenCap2/8.png  used on input line 280.
+Package pdftex.def Info: imagenCap2/8.png  used on input line 283.
 (pdftex.def)             Requested size: 234.8775pt x 207.31494pt.
- [13 <./imagenCap2/6.png> <./imagenCap2/7.png>]
-<imagenCap2/9.png, id=327, 611.28375pt x 430.10687pt>
+<imagenCap2/9.png, id=629, 611.28375pt x 430.10687pt>
 File: imagenCap2/9.png Graphic file (type png)
 <use imagenCap2/9.png>
-Package pdftex.def Info: imagenCap2/9.png  used on input line 289.
+Package pdftex.def Info: imagenCap2/9.png  used on input line 292.
 (pdftex.def)             Requested size: 234.8775pt x 165.26022pt.
- [14 <./imagenCap2/8.png> <./imagenCap2/9.png>]
-<imagenCap2/10.png, id=339, 803.0pt x 426.59375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--294
+
+ []
+
+[12 <./imagenCap2/7.png> <./imagenCap2/8.png>]
+<imagenCap2/10.png, id=639, 803.0pt x 426.59375pt>
 File: imagenCap2/10.png Graphic file (type png)
 <use imagenCap2/10.png>
-Package pdftex.def Info: imagenCap2/10.png  used on input line 300.
+Package pdftex.def Info: imagenCap2/10.png  used on input line 303.
 (pdftex.def)             Requested size: 234.8775pt x 124.77654pt.
-<imagenCap2/11.png, id=341, 803.0pt x 482.80376pt>
+<imagenCap2/11.png, id=641, 803.0pt x 482.80376pt>
 File: imagenCap2/11.png Graphic file (type png)
 <use imagenCap2/11.png>
-Package pdftex.def Info: imagenCap2/11.png  used on input line 311.
+Package pdftex.def Info: imagenCap2/11.png  used on input line 314.
 (pdftex.def)             Requested size: 234.8775pt x 141.21768pt.
- [15 <./imagenCap2/10.png>]
-<imagenCap2/12.png, id=350, 331.99031pt x 228.855pt>
+ [13 <./imagenCap2/9.png> <./imagenCap2/10.png>]
+<imagenCap2/12.png, id=650, 331.99031pt x 228.855pt>
 File: imagenCap2/12.png Graphic file (type png)
 <use imagenCap2/12.png>
-Package pdftex.def Info: imagenCap2/12.png  used on input line 320.
+Package pdftex.def Info: imagenCap2/12.png  used on input line 323.
 (pdftex.def)             Requested size: 234.8775pt x 161.91199pt.
-<imagenCap2/13.png, id=351, 785.43437pt x 418.56375pt>
+<imagenCap2/13.png, id=651, 785.43437pt x 418.56375pt>
 File: imagenCap2/13.png Graphic file (type png)
 <use imagenCap2/13.png>
-Package pdftex.def Info: imagenCap2/13.png  used on input line 329.
+Package pdftex.def Info: imagenCap2/13.png  used on input line 332.
 (pdftex.def)             Requested size: 234.8775pt x 125.16772pt.
- [16 <./imagenCap2/11.png> <./imagenCap2/12.png>]
-<imagenCap2/14.png, id=360, 783.92876pt x 420.57124pt>
+ [14 <./imagenCap2/11.png> <./imagenCap2/12.png>]
+<imagenCap2/14.png, id=658, 783.92876pt x 420.57124pt>
 File: imagenCap2/14.png Graphic file (type png)
 <use imagenCap2/14.png>
-Package pdftex.def Info: imagenCap2/14.png  used on input line 336.
+Package pdftex.def Info: imagenCap2/14.png  used on input line 339.
 (pdftex.def)             Requested size: 234.8775pt x 126.0055pt.
-<imagenCap2/15.png, id=361, 788.44562pt x 421.07312pt>
+<imagenCap2/15.png, id=659, 788.44562pt x 421.07312pt>
 File: imagenCap2/15.png Graphic file (type png)
 <use imagenCap2/15.png>
-Package pdftex.def Info: imagenCap2/15.png  used on input line 343.
+Package pdftex.def Info: imagenCap2/15.png  used on input line 346.
 (pdftex.def)             Requested size: 234.8775pt x 125.43625pt.
-<imagenCap2/16.png, id=362, 787.44188pt x 437.13312pt>
+<imagenCap2/16.png, id=660, 787.44188pt x 437.13312pt>
 File: imagenCap2/16.png Graphic file (type png)
 <use imagenCap2/16.png>
-Package pdftex.def Info: imagenCap2/16.png  used on input line 350.
+Package pdftex.def Info: imagenCap2/16.png  used on input line 353.
 (pdftex.def)             Requested size: 234.8775pt x 130.38722pt.
- [17 <./imagenCap2/13.png> <./imagenCap2/14.png> <./imagenCap2/15.png>]
-<imagenCap2/17.png, id=373, 803.0pt x 452.69125pt>
+ [15 <./imagenCap2/13.png> <./imagenCap2/14.png> <./imagenCap2/15.png>]
+<imagenCap2/17.png, id=669, 803.0pt x 452.69125pt>
 File: imagenCap2/17.png Graphic file (type png)
 <use imagenCap2/17.png>
-Package pdftex.def Info: imagenCap2/17.png  used on input line 361.
+Package pdftex.def Info: imagenCap2/17.png  used on input line 364.
 (pdftex.def)             Requested size: 234.8775pt x 132.40993pt.
-<imagenCap2/18.png, id=374, 803.0pt x 452.69125pt>
+<imagenCap2/18.png, id=670, 803.0pt x 452.69125pt>
 File: imagenCap2/18.png Graphic file (type png)
 <use imagenCap2/18.png>
-Package pdftex.def Info: imagenCap2/18.png  used on input line 368.
+Package pdftex.def Info: imagenCap2/18.png  used on input line 371.
 (pdftex.def)             Requested size: 234.8775pt x 132.40993pt.
- [18 <./imagenCap2/16.png> <./imagenCap2/17.png>]
-<imagenCap2/19.png, id=384, 404.3835pt x 227.322pt>
+ [16 <./imagenCap2/16.png> <./imagenCap2/17.png>]
+<imagenCap2/19.png, id=677, 404.3835pt x 227.322pt>
 File: imagenCap2/19.png Graphic file (type png)
 <use imagenCap2/19.png>
-Package pdftex.def Info: imagenCap2/19.png  used on input line 375.
+Package pdftex.def Info: imagenCap2/19.png  used on input line 378.
 (pdftex.def)             Requested size: 234.8775pt x 132.03415pt.
-<imagenCap2/20.png, id=385, 404.3835pt x 227.322pt>
+<imagenCap2/20.png, id=678, 404.3835pt x 227.322pt>
 File: imagenCap2/20.png Graphic file (type png)
 <use imagenCap2/20.png>
-Package pdftex.def Info: imagenCap2/20.png  used on input line 382.
+Package pdftex.def Info: imagenCap2/20.png  used on input line 385.
 (pdftex.def)             Requested size: 234.8775pt x 132.03415pt.
-<imagenCap2/21.png, id=386, 407.0115pt x 227.322pt>
+<imagenCap2/21.png, id=679, 407.0115pt x 227.322pt>
 File: imagenCap2/21.png Graphic file (type png)
 <use imagenCap2/21.png>
-Package pdftex.def Info: imagenCap2/21.png  used on input line 389.
+Package pdftex.def Info: imagenCap2/21.png  used on input line 392.
 (pdftex.def)             Requested size: 234.8775pt x 131.18433pt.
- [19 <./imagenCap2/18.png> <./imagenCap2/19.png> <./imagenCap2/20.png>]
-<imagenCap2/22.png, id=397, 404.3835pt x 227.322pt>
+ [17 <./imagenCap2/18.png> <./imagenCap2/19.png> <./imagenCap2/20.png>]
+<imagenCap2/22.png, id=687, 404.3835pt x 227.322pt>
 File: imagenCap2/22.png Graphic file (type png)
 <use imagenCap2/22.png>
-Package pdftex.def Info: imagenCap2/22.png  used on input line 396.
+Package pdftex.def Info: imagenCap2/22.png  used on input line 399.
 (pdftex.def)             Requested size: 234.8775pt x 132.03415pt.
-<imagenCap2/23.png, id=398, 404.3835pt x 227.979pt>
+<imagenCap2/23.png, id=688, 404.3835pt x 227.979pt>
 File: imagenCap2/23.png Graphic file (type png)
 <use imagenCap2/23.png>
-Package pdftex.def Info: imagenCap2/23.png  used on input line 403.
+Package pdftex.def Info: imagenCap2/23.png  used on input line 406.
 (pdftex.def)             Requested size: 234.8775pt x 132.41576pt.
-<imagenCap2/24.png, id=399, 406.3545pt x 227.979pt>
+<imagenCap2/24.png, id=689, 406.3545pt x 227.979pt>
 File: imagenCap2/24.png Graphic file (type png)
 <use imagenCap2/24.png>
-Package pdftex.def Info: imagenCap2/24.png  used on input line 410.
+Package pdftex.def Info: imagenCap2/24.png  used on input line 413.
 (pdftex.def)             Requested size: 234.8775pt x 131.77568pt.
- [20 <./imagenCap2/21.png> <./imagenCap2/22.png> <./imagenCap2/23.png>] [21 <./
+ [18 <./imagenCap2/21.png> <./imagenCap2/22.png> <./imagenCap2/23.png>] [19 <./
 imagenCap2/24.png>]
-<docker1.png, id=420, 132.495pt x 165.61874pt>
+<docker1.png, id=706, 132.495pt x 165.61874pt>
 File: docker1.png Graphic file (type png)
 <use docker1.png>
-Package pdftex.def Info: docker1.png  used on input line 440.
+Package pdftex.def Info: docker1.png  used on input line 443.
 (pdftex.def)             Requested size: 140.92793pt x 176.17165pt.
- [22 <./docker1.png>]
-<docker2.png, id=429, 323.0641pt x 160.4566pt>
+ [20 <./docker1.png>]
+<docker2.png, id=714, 323.0641pt x 160.4566pt>
 File: docker2.png Graphic file (type png)
 <use docker2.png>
-Package pdftex.def Info: docker2.png  used on input line 449.
+Package pdftex.def Info: docker2.png  used on input line 452.
 (pdftex.def)             Requested size: 352.31625pt x 174.98482pt.
-<docker3.png, id=430, 472.76625pt x 238.7491pt>
+<docker3.png, id=715, 472.76625pt x 238.7491pt>
 File: docker3.png Graphic file (type png)
 <use docker3.png>
-Package pdftex.def Info: docker3.png  used on input line 458.
+Package pdftex.def Info: docker3.png  used on input line 461.
 (pdftex.def)             Requested size: 352.31625pt x 177.92474pt.
- [23 <./docker2.png> <./docker3.png>]
-<docker4.png, id=439, 315.75107pt x 155.29446pt>
+ [21 <./docker2.png> <./docker3.png>]
+<docker4.png, id=723, 315.75107pt x 155.29446pt>
 File: docker4.png Graphic file (type png)
 <use docker4.png>
-Package pdftex.def Info: docker4.png  used on input line 470.
+Package pdftex.def Info: docker4.png  used on input line 473.
 (pdftex.def)             Requested size: 352.31625pt x 173.27695pt.
-<docker5.png, id=440, 354.03696pt x 172.5016pt>
+<docker5.png, id=724, 354.03696pt x 172.5016pt>
 File: docker5.png Graphic file (type png)
 <use docker5.png>
-Package pdftex.def Info: docker5.png  used on input line 486.
+Package pdftex.def Info: docker5.png  used on input line 489.
 (pdftex.def)             Requested size: 352.31625pt x 171.66414pt.
- [24 <./docker4.png>]
-<docker6.png, id=450, 353.60678pt x 197.88214pt>
+ [22 <./docker4.png>]
+<docker6.png, id=732, 353.60678pt x 197.88214pt>
 File: docker6.png Graphic file (type png)
 <use docker6.png>
-Package pdftex.def Info: docker6.png  used on input line 495.
+Package pdftex.def Info: docker6.png  used on input line 498.
 (pdftex.def)             Requested size: 352.31625pt x 197.16603pt.
- [25 <./docker5.png> <./docker6.png>]
-<phishing1.png, id=463, 440.14438pt x 215.30438pt>
+ [23 <./docker5.png> <./docker6.png>]
+<phishing1.png, id=744, 440.14438pt x 215.30438pt>
 File: phishing1.png Graphic file (type png)
 <use phishing1.png>
-Package pdftex.def Info: phishing1.png  used on input line 516.
+Package pdftex.def Info: phishing1.png  used on input line 519.
 (pdftex.def)             Requested size: 352.31625pt x 172.34886pt.
- [26]
-<phishing2.png, id=470, 382.42876pt x 199.947pt>
+<phishing2.png, id=745, 382.42876pt x 199.947pt>
 File: phishing2.png Graphic file (type png)
 <use phishing2.png>
-Package pdftex.def Info: phishing2.png  used on input line 525.
+Package pdftex.def Info: phishing2.png  used on input line 528.
 (pdftex.def)             Requested size: 352.31625pt x 184.21278pt.
-<phishing3.png, id=471, 407.121pt x 196.3335pt>
+
+[24 <./phishing1.png>]
+<phishing3.png, id=755, 407.121pt x 196.3335pt>
 File: phishing3.png Graphic file (type png)
 <use phishing3.png>
-Package pdftex.def Info: phishing3.png  used on input line 534.
+Package pdftex.def Info: phishing3.png  used on input line 537.
 (pdftex.def)             Requested size: 352.31625pt x 169.91301pt.
-
-[27 <./phishing1.png> <./phishing2.png>]
-<phishing4.png, id=480, 415.5525pt x 114.4275pt>
+<phishing4.png, id=756, 415.5525pt x 114.4275pt>
 File: phishing4.png Graphic file (type png)
 <use phishing4.png>
-Package pdftex.def Info: phishing4.png  used on input line 543.
+Package pdftex.def Info: phishing4.png  used on input line 546.
 (pdftex.def)             Requested size: 352.31625pt x 97.01764pt.
-<phishing5.png, id=481, 420.06938pt x 202.50656pt>
+ [25 <./phishing2.png> <./phishing3.png>]
+<phishing5.png, id=763, 420.06938pt x 202.50656pt>
 File: phishing5.png Graphic file (type png)
 <use phishing5.png>
-Package pdftex.def Info: phishing5.png  used on input line 552.
+Package pdftex.def Info: phishing5.png  used on input line 555.
 (pdftex.def)             Requested size: 352.31625pt x 169.84477pt.
- [28 <./phishing3.png> <./phishing4.png>]
-<phishing6.png, id=490, 472.76625pt x 228.855pt>
+<phishing6.png, id=764, 472.76625pt x 228.855pt>
 File: phishing6.png Graphic file (type png)
 <use phishing6.png>
-Package pdftex.def Info: phishing6.png  used on input line 561.
+Package pdftex.def Info: phishing6.png  used on input line 564.
 (pdftex.def)             Requested size: 352.31625pt x 170.5513pt.
- [29 <./phishing5.png> <./phishing6.png>]
-<phishing7.png, id=499, 368.1253pt x 172.39406pt>
+ [26 <./phishing4.png> <./phishing5.png>]
+<phishing7.png, id=771, 368.1253pt x 172.39406pt>
 File: phishing7.png Graphic file (type png)
 <use phishing7.png>
-Package pdftex.def Info: phishing7.png  used on input line 570.
+Package pdftex.def Info: phishing7.png  used on input line 573.
 (pdftex.def)             Requested size: 352.31625pt x 165.00186pt.
-<phishing8.png, id=500, 402.00188pt x 210.7875pt>
+ [27 <./phishing6.png> <./phishing7.png>]
+<phishing8.png, id=779, 402.00188pt x 210.7875pt>
 File: phishing8.png Graphic file (type png)
 <use phishing8.png>
-Package pdftex.def Info: phishing8.png  used on input line 579.
+Package pdftex.def Info: phishing8.png  used on input line 582.
 (pdftex.def)             Requested size: 352.31625pt x 184.73451pt.
- [30 <./phishing7.png>]
-<phishing9.png, id=508, 411.03563pt x 195.73125pt>
+<phishing9.png, id=781, 411.03563pt x 195.73125pt>
 File: phishing9.png Graphic file (type png)
 <use phishing9.png>
-Package pdftex.def Info: phishing9.png  used on input line 588.
+Package pdftex.def Info: phishing9.png  used on input line 591.
 (pdftex.def)             Requested size: 352.31625pt x 167.77007pt.
- [31 <./phishing8.png>]
-<phishing10.png, id=515, 407.121pt x 183.084pt>
+ [28 <./phishing8.png>]
+<phishing10.png, id=787, 407.121pt x 183.084pt>
 File: phishing10.png Graphic file (type png)
 <use phishing10.png>
-Package pdftex.def Info: phishing10.png  used on input line 597.
+Package pdftex.def Info: phishing10.png  used on input line 600.
 (pdftex.def)             Requested size: 352.31625pt x 158.44649pt.
- [32 <./phishing9.png> <./phishing10.png>]
-<phishing11.png, id=524, 382.42876pt x 257.763pt>
+
+Overfull \hbox (44.54381pt too wide) in paragraph at lines 604--605
+[]\T1/lmr/m/n/10.95 Lo nor-mal de las cuen-tas de in-for-ma-ción de Goo-gle son
+ por el re-mi-ten-te no-reply@accounts.google.com
+ []
+
+[29 <./phishing9.png> <./phishing10.png>]
+<phishing11.png, id=794, 382.42876pt x 257.763pt>
 File: phishing11.png Graphic file (type png)
 <use phishing11.png>
-Package pdftex.def Info: phishing11.png  used on input line 608.
+Package pdftex.def Info: phishing11.png  used on input line 611.
 (pdftex.def)             Requested size: 352.31625pt x 237.47916pt.
- [33 <./phishing11.png>]
-<osi1.png, id=531, 322.70563pt x 227.34938pt>
+ [30 <./phishing11.png>]
+<osi1.png, id=802, 322.70563pt x 227.34938pt>
 File: osi1.png Graphic file (type png)
 <use osi1.png>
-Package pdftex.def Info: osi1.png  used on input line 636.
+Package pdftex.def Info: osi1.png  used on input line 639.
 (pdftex.def)             Requested size: 352.31625pt x 248.22218pt.
-
-[34]
-<osi2.png, id=536, 469.755pt x 66.74937pt>
+ [31]
+<osi2.png, id=808, 469.755pt x 66.74937pt>
 File: osi2.png Graphic file (type png)
 <use osi2.png>
-Package pdftex.def Info: osi2.png  used on input line 652.
+Package pdftex.def Info: osi2.png  used on input line 655.
 (pdftex.def)             Requested size: 352.31625pt x 50.06189pt.
- [35 <./osi1.png> <./osi2.png>]
-<osi3.png, id=545, 424.08438pt x 227.34938pt>
+ [32 <./osi1.png> <./osi2.png>]
+<osi3.png, id=816, 424.08438pt x 227.34938pt>
 File: osi3.png Graphic file (type png)
 <use osi3.png>
-Package pdftex.def Info: osi3.png  used on input line 663.
+Package pdftex.def Info: osi3.png  used on input line 666.
 (pdftex.def)             Requested size: 352.31625pt x 188.88379pt.
-<osi4.png, id=546, 316.18124pt x 227.34938pt>
+<osi4.png, id=817, 316.18124pt x 227.34938pt>
 File: osi4.png Graphic file (type png)
 <use osi4.png>
-Package pdftex.def Info: osi4.png  used on input line 672.
+Package pdftex.def Info: osi4.png  used on input line 675.
 (pdftex.def)             Requested size: 352.31625pt x 253.34947pt.
- [36 <./osi3.png>] [37 <./osi4.png>]
-[38]
-<osi5.png, id=564, 212.795pt x 227.34938pt>
+ [33 <./osi3.png>] [34 <./osi4.png>] [35]
+<osi5.png, id=835, 212.795pt x 227.34938pt>
 File: osi5.png Graphic file (type png)
 <use osi5.png>
-Package pdftex.def Info: osi5.png  used on input line 717.
+Package pdftex.def Info: osi5.png  used on input line 720.
 (pdftex.def)             Requested size: 352.31625pt x 376.43546pt.
-<osi6.png, id=565, 208.926pt x 227.6505pt>
+<osi6.png, id=836, 208.926pt x 227.6505pt>
 File: osi6.png Graphic file (type png)
 <use osi6.png>
-Package pdftex.def Info: osi6.png  used on input line 724.
+Package pdftex.def Info: osi6.png  used on input line 727.
 (pdftex.def)             Requested size: 352.31625pt x 383.92651pt.
- [39 <./osi5.png>]
-<osi7.png, id=572, 294.6645pt x 211.554pt>
+ [36 <./osi5.png>]
+<osi7.png, id=842, 294.6645pt x 211.554pt>
 File: osi7.png Graphic file (type png)
 <use osi7.png>
-Package pdftex.def Info: osi7.png  used on input line 731.
+Package pdftex.def Info: osi7.png  used on input line 734.
 (pdftex.def)             Requested size: 352.31625pt x 252.94998pt.
- [40 <./osi6.png>]
-<osi8.png, id=579, 314.046pt x 227.6505pt>
+ [37 <./osi6.png>]
+<osi8.png, id=848, 314.046pt x 227.6505pt>
 File: osi8.png Graphic file (type png)
 <use osi8.png>
-Package pdftex.def Info: osi8.png  used on input line 740.
+Package pdftex.def Info: osi8.png  used on input line 743.
 (pdftex.def)             Requested size: 352.31625pt x 255.40102pt.
- [41 <./osi7.png>]
-<osi9.png, id=586, 422.7795pt x 227.6505pt>
+ [38 <./osi7.png>]
+<osi9.png, id=854, 422.7795pt x 227.6505pt>
 File: osi9.png Graphic file (type png)
 <use osi9.png>
-Package pdftex.def Info: osi9.png  used on input line 749.
+Package pdftex.def Info: osi9.png  used on input line 752.
 (pdftex.def)             Requested size: 352.31625pt x 189.72101pt.
- [42 <./osi8.png> <./osi9.png>]
-<osi10.png, id=596, 425.079pt x 227.6505pt>
+ [39 <./osi8.png> <./osi9.png>]
+<osi10.png, id=862, 425.079pt x 227.6505pt>
 File: osi10.png Graphic file (type png)
 <use osi10.png>
-Package pdftex.def Info: osi10.png  used on input line 758.
+Package pdftex.def Info: osi10.png  used on input line 761.
 (pdftex.def)             Requested size: 352.31625pt x 188.68933pt.
-<osi11.png, id=597, 421.4655pt x 227.6505pt>
+<osi11.png, id=863, 421.4655pt x 227.6505pt>
 File: osi11.png Graphic file (type png)
 <use osi11.png>
-Package pdftex.def Info: osi11.png  used on input line 765.
+Package pdftex.def Info: osi11.png  used on input line 768.
 (pdftex.def)             Requested size: 352.31625pt x 190.31152pt.
-<osi12.png, id=598, 426.393pt x 227.6505pt>
+<osi12.png, id=864, 426.393pt x 227.6505pt>
 File: osi12.png Graphic file (type png)
 <use osi12.png>
-Package pdftex.def Info: osi12.png  used on input line 772.
+Package pdftex.def Info: osi12.png  used on input line 775.
 (pdftex.def)             Requested size: 352.31625pt x 188.10576pt.
- [43 <./osi10.png> <./osi11.png>]
-<osi13.png, id=607, 456.615pt x 227.6505pt>
+ [40 <./osi10.png> <./osi11.png>]
+<osi13.png, id=871, 456.615pt x 227.6505pt>
 File: osi13.png Graphic file (type png)
 <use osi13.png>
-Package pdftex.def Info: osi13.png  used on input line 783.
+Package pdftex.def Info: osi13.png  used on input line 786.
 (pdftex.def)             Requested size: 352.31625pt x 175.65614pt.
-<osi14.png, id=608, 425.079pt x 227.6505pt>
+<osi14.png, id=872, 425.079pt x 227.6505pt>
 File: osi14.png Graphic file (type png)
 <use osi14.png>
-Package pdftex.def Info: osi14.png  used on input line 790.
+Package pdftex.def Info: osi14.png  used on input line 793.
 (pdftex.def)             Requested size: 352.31625pt x 188.68933pt.
- [44 <./osi12.png> <./osi13.png>]
-<osi15.png, id=617, 425.079pt x 227.6505pt>
+ [41 <./osi12.png> <./osi13.png>]
+<osi15.png, id=879, 425.079pt x 227.6505pt>
 File: osi15.png Graphic file (type png)
 <use osi15.png>
-Package pdftex.def Info: osi15.png  used on input line 799.
+Package pdftex.def Info: osi15.png  used on input line 802.
 (pdftex.def)             Requested size: 352.31625pt x 188.68933pt.
-<osi16.png, id=618, 354.32375pt x 170.6375pt>
+<osi16.png, id=880, 354.32375pt x 170.6375pt>
 File: osi16.png Graphic file (type png)
 <use osi16.png>
-Package pdftex.def Info: osi16.png  used on input line 806.
+Package pdftex.def Info: osi16.png  used on input line 809.
 (pdftex.def)             Requested size: 352.31625pt x 169.67369pt.
-
-[45 <./osi14.png> <./osi15.png>]
-<osi17.png, id=627, 424.0935pt x 227.6505pt>
+ [42 <./osi14.png> <./osi15.png>]
+<osi17.png, id=887, 424.0935pt x 227.6505pt>
 File: osi17.png Graphic file (type png)
 <use osi17.png>
-Package pdftex.def Info: osi17.png  used on input line 815.
+Package pdftex.def Info: osi17.png  used on input line 818.
 (pdftex.def)             Requested size: 352.31625pt x 189.13396pt.
- [46 <./osi16.png>]
-<osi18.png, id=634, 421.4655pt x 227.6505pt>
+<osi18.png, id=888, 421.4655pt x 227.6505pt>
 File: osi18.png Graphic file (type png)
 <use osi18.png>
-Package pdftex.def Info: osi18.png  used on input line 822.
+Package pdftex.def Info: osi18.png  used on input line 825.
 (pdftex.def)             Requested size: 352.31625pt x 190.31152pt.
-<osi19.png, id=635, 425.079pt x 227.6505pt>
+ [43 <./osi16.png> <./osi17.png>]
+<osi19.png, id=895, 425.079pt x 227.6505pt>
 File: osi19.png Graphic file (type png)
 <use osi19.png>
-Package pdftex.def Info: osi19.png  used on input line 829.
+Package pdftex.def Info: osi19.png  used on input line 832.
 (pdftex.def)             Requested size: 352.31625pt x 188.68933pt.
- [47 <./osi17.png> <./osi18.png>]
-<osi20.png, id=644, 424.0935pt x 227.6505pt>
+<osi20.png, id=896, 424.0935pt x 227.6505pt>
 File: osi20.png Graphic file (type png)
 <use osi20.png>
-Package pdftex.def Info: osi20.png  used on input line 836.
+Package pdftex.def Info: osi20.png  used on input line 839.
 (pdftex.def)             Requested size: 352.31625pt x 189.13396pt.
-<osi21.png, id=645, 453.6585pt x 227.6505pt>
+ [44 <./osi18.png> <./osi19.png>]
+<osi21.png, id=903, 453.6585pt x 227.6505pt>
 File: osi21.png Graphic file (type png)
 <use osi21.png>
-Package pdftex.def Info: osi21.png  used on input line 843.
+Package pdftex.def Info: osi21.png  used on input line 846.
 (pdftex.def)             Requested size: 352.31625pt x 176.7955pt.
- [48 <./osi19.png> <./osi20.png>]
-<osi22.png, id=655, 427.707pt x 227.6505pt>
+<osi22.png, id=904, 427.707pt x 227.6505pt>
 File: osi22.png Graphic file (type png)
 <use osi22.png>
-Package pdftex.def Info: osi22.png  used on input line 850.
+Package pdftex.def Info: osi22.png  used on input line 853.
 (pdftex.def)             Requested size: 352.31625pt x 187.52913pt.
-<osi23.png, id=656, 429.021pt x 227.6505pt>
+
+[45 <./osi20.png> <./osi21.png>]
+<osi23.png, id=912, 429.021pt x 227.6505pt>
 File: osi23.png Graphic file (type png)
 <use osi23.png>
-Package pdftex.def Info: osi23.png  used on input line 857.
+Package pdftex.def Info: osi23.png  used on input line 860.
 (pdftex.def)             Requested size: 352.31625pt x 186.95598pt.
- [49 <./osi21.png> <./osi22.png>]
-<osi24.png, id=665, 425.079pt x 227.6505pt>
+<osi24.png, id=913, 425.079pt x 227.6505pt>
 File: osi24.png Graphic file (type png)
 <use osi24.png>
-Package pdftex.def Info: osi24.png  used on input line 864.
+Package pdftex.def Info: osi24.png  used on input line 867.
 (pdftex.def)             Requested size: 352.31625pt x 188.68933pt.
-<osi25.png, id=666, 421.4655pt x 227.6505pt>
+ [46 <./osi22.png> <./osi23.png>]
+<osi25.png, id=920, 421.4655pt x 227.6505pt>
 File: osi25.png Graphic file (type png)
 <use osi25.png>
-Package pdftex.def Info: osi25.png  used on input line 871.
+Package pdftex.def Info: osi25.png  used on input line 874.
 (pdftex.def)             Requested size: 352.31625pt x 190.31152pt.
-
-[50 <./osi23.png> <./osi24.png>]
-<osi26.png, id=675, 424.0935pt x 227.6505pt>
+<osi26.png, id=921, 424.0935pt x 227.6505pt>
 File: osi26.png Graphic file (type png)
 <use osi26.png>
-Package pdftex.def Info: osi26.png  used on input line 878.
+Package pdftex.def Info: osi26.png  used on input line 881.
 (pdftex.def)             Requested size: 352.31625pt x 189.13396pt.
-<osi27.png, id=676, 426.393pt x 227.6505pt>
+ [47 <./osi24.png> <./osi25.png>]
+<osi27.png, id=928, 426.393pt x 227.6505pt>
 File: osi27.png Graphic file (type png)
 <use osi27.png>
-Package pdftex.def Info: osi27.png  used on input line 885.
+Package pdftex.def Info: osi27.png  used on input line 888.
 (pdftex.def)             Requested size: 352.31625pt x 188.10576pt.
- [51 <./osi25.png> <./osi26.png>] [52 <./osi27.png>]
-<ac61.png, id=691, 1443.89438pt x 811.53188pt>
+ [48 <./osi26.png> <./osi27.png>]
+Overfull \hbox (9.45773pt too wide) in paragraph at lines 908--909
+[]\T1/lmr/m/n/10.95 Se de-be in-gre-sar a la URL []$\T1/lmtt/m/n/10.95 https :/
+/ www [] .shodan [] .io /$[] \T1/lmr/m/n/10.95 y en el bus-ca-dor co-lo-ca-mos 
+app.payku.cl. 
+ []
+
+<ac61.png, id=936, 1443.89438pt x 811.53188pt>
 File: ac61.png Graphic file (type png)
 <use ac61.png>
-Package pdftex.def Info: ac61.png  used on input line 910.
+Package pdftex.def Info: ac61.png  used on input line 913.
 (pdftex.def)             Requested size: 352.31625pt x 198.01596pt.
- [53 <./ac61.png>]
-<ac62.png, id=699, 1444.64719pt x 812.28468pt>
+<ac62.png, id=937, 1444.64719pt x 812.28468pt>
 File: ac62.png Graphic file (type png)
 <use ac62.png>
-Package pdftex.def Info: ac62.png  used on input line 919.
+Package pdftex.def Info: ac62.png  used on input line 922.
 (pdftex.def)             Requested size: 352.31625pt x 198.0881pt.
-<ac63.png, id=700, 1442.38875pt x 812.28468pt>
+[49 <./ac61.png>]
+Overfull \hbox (15.20647pt too wide) in paragraph at lines 928--929
+[]\T1/lmr/m/n/10.95 Se de-be in-gre-sar a la URL []$\T1/lmtt/m/n/10.95 https :/
+/ www [] .zoomeye [] .hk /$[] \T1/lmr/m/n/10.95 y en el bus-ca-dor co-lo-ca-mos
+ app.payku.cl. 
+ []
+
+<ac63.png, id=944, 1442.38875pt x 812.28468pt>
 File: ac63.png Graphic file (type png)
 <use ac63.png>
-Package pdftex.def Info: ac63.png  used on input line 930.
+Package pdftex.def Info: ac63.png  used on input line 933.
 (pdftex.def)             Requested size: 352.31625pt x 198.39796pt.
- [54 <./ac62.png>]
-<ac64.png, id=709, 1444.64719pt x 811.53188pt>
+<ac64.png, id=945, 1444.64719pt x 811.53188pt>
 File: ac64.png Graphic file (type png)
 <use ac64.png>
-Package pdftex.def Info: ac64.png  used on input line 939.
+Package pdftex.def Info: ac64.png  used on input line 942.
 (pdftex.def)             Requested size: 352.31625pt x 197.90451pt.
-<ac65.png, id=710, 1444.64719pt x 812.28468pt>
+[50 <./ac62.png> <./ac63.png>]
+<ac65.png, id=952, 1444.64719pt x 812.28468pt>
 File: ac65.png Graphic file (type png)
 <use ac65.png>
-Package pdftex.def Info: ac65.png  used on input line 948.
+Package pdftex.def Info: ac65.png  used on input line 951.
 (pdftex.def)             Requested size: 352.31625pt x 198.0881pt.
- [55 <./ac63.png> <./ac64.png>]
-<ac66.png, id=719, 1444.64719pt x 812.28468pt>
+
+Overfull \hbox (26.43019pt too wide) in paragraph at lines 957--958
+[]\T1/lmr/m/n/10.95 Se de-be in-gre-sar a la URL []$\T1/lmtt/m/n/10.95 https :/
+/ search [] .censys [] .io$[]\T1/lmr/m/n/10.95 / y en el bus-ca-dor co-lo-ca-mo
+s app.payku.cl. 
+ []
+
+<ac66.png, id=954, 1444.64719pt x 812.28468pt>
 File: ac66.png Graphic file (type png)
 <use ac66.png>
-Package pdftex.def Info: ac66.png  used on input line 959.
+Package pdftex.def Info: ac66.png  used on input line 962.
 (pdftex.def)             Requested size: 352.31625pt x 198.0881pt.
-<ac67.png, id=720, 1443.89438pt x 812.28468pt>
+[51 <./ac64.png> <./ac65.png>]
+<ac67.png, id=962, 1443.89438pt x 812.28468pt>
 File: ac67.png Graphic file (type png)
 <use ac67.png>
-Package pdftex.def Info: ac67.png  used on input line 968.
+Package pdftex.def Info: ac67.png  used on input line 971.
 (pdftex.def)             Requested size: 352.31625pt x 198.19965pt.
-
-[56 <./ac65.png> <./ac66.png>] [57 <./ac67.png>]
+ [52 <./ac66.png> <./ac67.png>] [53]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-009.
+012.
 
 (C:\Users\Gustavo Landaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [58{C:/Users/Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
-m/lm-ts1.enc}]
-<Imagen1.png, id=744, 373.395pt x 210.03468pt>
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1014
+
+ []
+
+
+Overfull \hbox (13.29053pt too wide) in paragraph at lines 1023--1024
+[]\T1/lmr/m/n/10.95 Debido a que el tar-get es una pa-gi-na web el si-guien-te 
+co-man-do nmap juice-shop.herokuapp.com,
+ []
+
+[54{C:/Users/Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
+lm-ts1.enc}]
+<Imagen1.png, id=980, 373.395pt x 210.03468pt>
 File: Imagen1.png Graphic file (type png)
 <use Imagen1.png>
-Package pdftex.def Info: Imagen1.png  used on input line 1040.
+Package pdftex.def Info: Imagen1.png  used on input line 1043.
 (pdftex.def)             Requested size: 352.31625pt x 198.18576pt.
- [59 <./Imagen1.png>]
-<Imagen2.png, id=752, 443.40656pt x 249.18094pt>
+
+Overfull \hbox (6.54028pt too wide) in paragraph at lines 1049--1051
+\T1/lmr/m/n/10.95 es-tos ser-vi-cios sin te-ner que es-ca-near de nue-vo to-dos
+ los puer-tos aso-cia-dos a juice-shop.herokuapp.com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1051
+
+ []
+
+[55 <./Imagen1.png>]
+<Imagen2.png, id=988, 443.40656pt x 249.18094pt>
 File: Imagen2.png Graphic file (type png)
 <use Imagen2.png>
-Package pdftex.def Info: Imagen2.png  used on input line 1077.
+Package pdftex.def Info: Imagen2.png  used on input line 1080.
 (pdftex.def)             Requested size: 352.31625pt x 198.00282pt.
- [60 <./Imagen2.png>]
-<Imagen3.png, id=763, 443.40656pt x 249.18094pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1087
+
+ []
+
+[56 <./Imagen2.png>]
+<Imagen3.png, id=994, 443.40656pt x 249.18094pt>
 File: Imagen3.png Graphic file (type png)
 <use Imagen3.png>
-Package pdftex.def Info: Imagen3.png  used on input line 1097.
+Package pdftex.def Info: Imagen3.png  used on input line 1100.
 (pdftex.def)             Requested size: 352.31625pt x 198.00282pt.
- [61 <./Imagen3.png>]
-[62]
-<Imagen4.png, id=779, 311.7465pt x 175.0905pt>
+ [57 <./Imagen3.png>] [58]
+<Imagen4.png, id=1010, 311.7465pt x 175.0905pt>
 File: Imagen4.png Graphic file (type png)
 <use Imagen4.png>
-Package pdftex.def Info: Imagen4.png  used on input line 1130.
+Package pdftex.def Info: Imagen4.png  used on input line 1133.
 (pdftex.def)             Requested size: 352.31625pt x 197.89268pt.
- [63 <./Imagen4.png>]
-<Imagen5.png, id=786, 287.109pt x 161.622pt>
+ [59 <./Imagen4.png>]
+<Imagen5.png, id=1016, 287.109pt x 161.622pt>
 File: Imagen5.png Graphic file (type png)
 <use Imagen5.png>
-Package pdftex.def Info: Imagen5.png  used on input line 1139.
+Package pdftex.def Info: Imagen5.png  used on input line 1142.
 (pdftex.def)             Requested size: 352.31625pt x 198.33762pt.
-<Imagen6.png, id=787, 356.4225pt x 200.385pt>
+<Imagen6.png, id=1017, 356.4225pt x 200.385pt>
 File: Imagen6.png Graphic file (type png)
 <use Imagen6.png>
-Package pdftex.def Info: Imagen6.png  used on input line 1155.
+Package pdftex.def Info: Imagen6.png  used on input line 1158.
 (pdftex.def)             Requested size: 352.31625pt x 198.08209pt.
- [64 <./Imagen5.png>]
-<Imagen7.png, id=794, 350.838pt x 197.4285pt>
+ [60 <./Imagen5.png>]
+<Imagen7.png, id=1023, 350.838pt x 197.4285pt>
 File: Imagen7.png Graphic file (type png)
 <use Imagen7.png>
-Package pdftex.def Info: Imagen7.png  used on input line 1165.
+Package pdftex.def Info: Imagen7.png  used on input line 1168.
 (pdftex.def)             Requested size: 352.31625pt x 198.2715pt.
- [65 <./Imagen6.png> <./Imagen7.png>]
-<Imagen8.png, id=803, 362.007pt x 203.67pt>
+ [61 <./Imagen6.png> <./Imagen7.png>]
+<Imagen8.png, id=1030, 362.007pt x 203.67pt>
 File: Imagen8.png Graphic file (type png)
 <use Imagen8.png>
-Package pdftex.def Info: Imagen8.png  used on input line 1178.
+Package pdftex.def Info: Imagen8.png  used on input line 1181.
 (pdftex.def)             Requested size: 352.31625pt x 198.21848pt.
-<Imagen9.png, id=804, 362.664pt x 203.9985pt>
+<Imagen9.png, id=1031, 362.664pt x 203.9985pt>
 File: Imagen9.png Graphic file (type png)
 <use Imagen9.png>
-Package pdftex.def Info: Imagen9.png  used on input line 1185.
+Package pdftex.def Info: Imagen9.png  used on input line 1188.
 (pdftex.def)             Requested size: 352.31625pt x 198.18024pt.
- [66 <./Imagen8.png>] [67 <./Imagen9.png>]
-<ram1.png, id=821, 357.7365pt x 244.5135pt>
+ [62 <./Imagen8.png>] [63 <./Imagen9.png>]
+<ram1.png, id=1047, 357.7365pt x 244.5135pt>
 File: ram1.png Graphic file (type png)
 <use ram1.png>
-Package pdftex.def Info: ram1.png  used on input line 1217.
+Package pdftex.def Info: ram1.png  used on input line 1220.
 (pdftex.def)             Requested size: 352.31625pt x 240.81923pt.
- [68 <./ram1.png>]
-<ram2.png, id=830, 284.262pt x 217.41225pt>
+ [64 <./ram1.png>]
+<ram2.png, id=1055, 284.262pt x 217.41225pt>
 File: ram2.png Graphic file (type png)
 <use ram2.png>
-Package pdftex.def Info: ram2.png  used on input line 1228.
+Package pdftex.def Info: ram2.png  used on input line 1231.
 (pdftex.def)             Requested size: 352.31625pt x 269.47226pt.
-<ram3.png, id=831, 330.033pt x 38.544pt>
+<ram3.png, id=1056, 330.033pt x 38.544pt>
 File: ram3.png Graphic file (type png)
 <use ram3.png>
-Package pdftex.def Info: ram3.png  used on input line 1237.
+Package pdftex.def Info: ram3.png  used on input line 1240.
 (pdftex.def)             Requested size: 352.31625pt x 41.14638pt.
-<ram4.png, id=832, 274.626pt x 174.6525pt>
+<ram4.png, id=1057, 274.626pt x 174.6525pt>
 File: ram4.png Graphic file (type png)
 <use ram4.png>
-Package pdftex.def Info: ram4.png  used on input line 1246.
+Package pdftex.def Info: ram4.png  used on input line 1249.
 (pdftex.def)             Requested size: 352.31625pt x 224.06078pt.
- [69 <./ram2.png> <./ram3.png>]
-<ram5.png, id=841, 314.97675pt x 212.59425pt>
+ [65 <./ram2.png> <./ram3.png>]
+<ram5.png, id=1064, 314.97675pt x 212.59425pt>
 File: ram5.png Graphic file (type png)
 <use ram5.png>
-Package pdftex.def Info: ram5.png  used on input line 1257.
+Package pdftex.def Info: ram5.png  used on input line 1260.
 (pdftex.def)             Requested size: 352.31625pt x 237.799pt.
- [70 <./ram4.png>]
-<ram6.png, id=848, 446.8695pt x 52.39575pt>
+ [66 <./ram4.png>]
+<ram6.png, id=1070, 446.8695pt x 52.39575pt>
 File: ram6.png Graphic file (type png)
 <use ram6.png>
-Package pdftex.def Info: ram6.png  used on input line 1266.
+Package pdftex.def Info: ram6.png  used on input line 1269.
 (pdftex.def)             Requested size: 352.31625pt x 41.31143pt.
-<ram7.png, id=849, 63.8385pt x 100.57574pt>
+<ram7.png, id=1072, 63.8385pt x 100.57574pt>
 File: ram7.png Graphic file (type png)
 <use ram7.png>
-Package pdftex.def Info: ram7.png  used on input line 1275.
+Package pdftex.def Info: ram7.png  used on input line 1279.
 (pdftex.def)             Requested size: 46.97836pt x 74.01512pt.
-<ram81.png, id=850, 349.90726pt x 224.63925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1275--1281
+
+ []
+
+[67 <./ram5.png> <./ram6.png>]
+<ram81.png, id=1079, 349.90726pt x 224.63925pt>
 File: ram81.png Graphic file (type png)
 <use ram81.png>
-Package pdftex.def Info: ram81.png  used on input line 1284.
+Package pdftex.def Info: ram81.png  used on input line 1288.
 (pdftex.def)             Requested size: 352.31625pt x 226.18459pt.
- [71 <./ram5.png> <./ram6.png> <./ram7.png>]
-<ram8.png, id=861, 415.5525pt x 263.7855pt>
+<ram8.png, id=1080, 415.5525pt x 263.7855pt>
 File: ram8.png Graphic file (type png)
 <use ram8.png>
-Package pdftex.def Info: ram8.png  used on input line 1293.
+Package pdftex.def Info: ram8.png  used on input line 1297.
 (pdftex.def)             Requested size: 352.31625pt x 223.6512pt.
-
-[72 <./ram81.png> <./ram8.png>]
-<ram9.png, id=871, 183.68625pt x 49.98676pt>
+ [68 <./ram7.png> <./ram81.png>]
+<ram9.png, id=1087, 183.68625pt x 49.98676pt>
 File: ram9.png Graphic file (type png)
 <use ram9.png>
-Package pdftex.def Info: ram9.png  used on input line 1304.
+Package pdftex.def Info: ram9.png  used on input line 1308.
 (pdftex.def)             Requested size: 187.89914pt x 51.13681pt.
-<ram10.png, id=872, 383.031pt x 246.9225pt>
+<ram10.png, id=1088, 383.031pt x 246.9225pt>
 File: ram10.png Graphic file (type png)
 <use ram10.png>
-Package pdftex.def Info: ram10.png  used on input line 1313.
+Package pdftex.def Info: ram10.png  used on input line 1317.
 (pdftex.def)             Requested size: 352.31625pt x 227.13753pt.
-<ram11.png, id=873, 313.77225pt x 280.6485pt>
+ [69 <./ram8.png> <./ram9.png>]
+<ram11.png, id=1096, 313.77225pt x 280.6485pt>
 File: ram11.png Graphic file (type png)
 <use ram11.png>
-Package pdftex.def Info: ram11.png  used on input line 1320.
+Package pdftex.def Info: ram11.png  used on input line 1324.
 (pdftex.def)             Requested size: 352.31625pt x 315.1421pt.
- [73 <./ram9.png> <./ram10.png>] [74 <./ram11.png>]
-<ram12.png, id=888, 377.91188pt x 249.18094pt>
+ [70 <./ram10.png>]
+Overfull \hbox (0.66699pt too wide) in paragraph at lines 1332--1333
+[]\T1/lmr/m/n/10.95 1\TS1/lmr/m/n/10.95 ° \T1/lmr/m/n/10.95 Des-de la pá-gi-na 
+Ofi-cial de kas-persky ([]\T1/lmr/m/it/10.95 Ata-ques de ran-som-wa-re Tes-laCr
+ypt[]\T1/lmr/m/n/10.95 , []2023[]) []$\T1/lmtt/m/n/10.95 https ://
+ []
+
+[71 <./ram11.png>]
+<ram12.png, id=1114, 377.91188pt x 249.18094pt>
 File: ram12.png Graphic file (type png)
 <use ram12.png>
-Package pdftex.def Info: ram12.png  used on input line 1348.
+Package pdftex.def Info: ram12.png  used on input line 1352.
 (pdftex.def)             Requested size: 352.31625pt x 232.30618pt.
- [75]
+ [72]
+Overfull \hbox (1.67046pt too wide) in paragraph at lines 1358--1360
+[]\T1/lmr/m/n/10.95 También se prue-ba una lla-ve maes-tra com-par-ti-da de la 
+pá-gi-na de blee-ping-com-pu-ter ([]Abrams[],
+ []
+
 File: ram12.png Graphic file (type png)
 <use ram12.png>
-Package pdftex.def Info: ram12.png  used on input line 1362.
+Package pdftex.def Info: ram12.png  used on input line 1366.
 (pdftex.def)             Requested size: 352.31625pt x 232.30618pt.
- [76 <./ram12.png>]
-<ram13.png, id=899, 333.04425pt x 209.583pt>
+[73 <./ram12.png>]
+<ram13.png, id=1128, 333.04425pt x 209.583pt>
 File: ram13.png Graphic file (type png)
 <use ram13.png>
-Package pdftex.def Info: ram13.png  used on input line 1371.
+Package pdftex.def Info: ram13.png  used on input line 1375.
 (pdftex.def)             Requested size: 352.31625pt x 221.71878pt.
- [77 <./ram13.png>]
-<ram14.png, id=907, 336.0555pt x 190.91325pt>
+ [74 <./ram13.png>]
+<ram14.png, id=1134, 336.0555pt x 190.91325pt>
 File: ram14.png Graphic file (type png)
 <use ram14.png>
-Package pdftex.def Info: ram14.png  used on input line 1380.
+Package pdftex.def Info: ram14.png  used on input line 1384.
 (pdftex.def)             Requested size: 352.31625pt x 200.16476pt.
- [78 <./ram14.png>] [79] [80]
-[81] (test.bbl) AED endfloat: Processing end Figures and Tables [82
+ [75 <./ram14.png>] [76] [77] [78]
+(test.bbl
+Underfull \hbox (badness 1394) in paragraph at lines 14--26
+[]\T1/lmr/m/n/10.95 Abrams, L.  (2016, 5).  Tes-laCrypt shuts down and Re-lea-s
+es Mas-ter Decry-ption Key.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--26
+\T1/lmr/m/n/10.95 https://www.bleepingcomputer.com/news/security/teslacrypt-shu
+ts-down-and-releases-
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 36--43
+[]\T1/lmr/m/it/10.95 Ataques de ran-som-wa-re Tes-laCrypt.  \T1/lmr/m/n/10.95 (
+2023, 4).  https://www.kaspersky.es/resource-
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 101--107
+[]\T1/lmr/m/it/10.95 Kali Li-nux | Pe-ne-tra-tion Tes-ting and Ethi-cal Hac-kin
+g Li-nux Dis-tri-bu-tion.  \T1/lmr/m/n/10.95 (2024).
+ []
+
+) AED endfloat: Processing end Figures and Tables [79
 
 ] (test.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -2028,29 +2155,32 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 8E94B0250F4E28F49296E172F18567B0;11429.
+(rerunfilecheck)             Checksum: 805C1164D58314F999AA6B558D96EAB8;10994.
  ) 
 Here is how much of TeX's memory you used:
- 28056 strings out of 474370
- 516101 string characters out of 5735307
- 1935754 words of memory out of 5000000
- 49720 multiletter control sequences out of 15000+600000
- 607805 words of font info for 68 fonts, out of 8000000 for 9000
+ 28203 strings out of 474370
+ 519336 string characters out of 5735307
+ 1938754 words of memory out of 5000000
+ 49838 multiletter control sequences out of 15000+600000
+ 610600 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,857b,1146s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,857b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
 m/lmbx10.pfb><C:/Users/Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/lm/lmbx12.pfb><C:/Users/Gustavo Landaeta/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Gustavo Landaeta/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Gustavo Landaeta/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Gustavo Land
-aeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on test.pdf (83 pages, 18588658 bytes).
+ograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Gustavo Landaeta/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Gustavo Lan
+daeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/
+Gustavo Landaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb
+>
+Output written on test.pdf (89 pages, 18624137 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 272 named destinations out of 1000 (max. 500000)
- 958 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1255 PDF objects out of 1440 (max. 8388607)
+ 284 named destinations out of 1000 (max. 500000)
+ 953 words of extra memory for PDF output out of 10000 (max. 10000000)
 

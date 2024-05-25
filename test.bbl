@@ -1,25 +1,44 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Célica~Martínez%
+Abrams%
 }{%
-Célica~Martínez%
+Abrams%
 }{%
-{\protect \APACyear {2019}}%
+{\protect \APACyear {2016}}%
 }]{%
-phishing}
+blogteslacrypt}
 \APACinsertmetastar {%
-phishing}%
+blogteslacrypt}%
 \begin{APACrefauthors}%
-Célica~Martínez, C\BPBI M.%
+Abrams, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2019}{}{}.
+\APACrefYearMonthDay{2016}{5}{}.
 \newblock
-\APACrefbtitle {¿Qué es el phishing?} {¿qué es el phishing?}
+{\BBOQ}\APACrefatitle {{TeslaCrypt shuts down and Releases Master Decryption
+  Key}} {{TeslaCrypt shuts down and Releases Master Decryption Key}}.{\BBCQ}
 \newblock
-\APAChowpublished {https://seguridad.unam.mx/que-es-el-phishing-2}.
+\APAChowpublished
+  {https://www.bleepingcomputer.com/news/security/teslacrypt-shuts-down-and-releases-master-decryption-key/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Ataques de ransomware TeslaCrypt}}}{%
+\APACcitebtitle {{Ataques de ransomware TeslaCrypt}}}{%
+{\protect \APACyear {2023}}%
+}]{%
+teslacrypt}
+\APACinsertmetastar {%
+teslacrypt}%
+\APACrefbtitle {{Ataques de ransomware TeslaCrypt}.} {{Ataques de ransomware
+  TeslaCrypt}.}
+\newblock
+\APACrefYearMonthDay{2023}{4}{}.
+\newblock
+\APAChowpublished
+  {https://www.kaspersky.es/resource-center/threats/teslacrypt}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -64,7 +83,7 @@ Jigsaw, G.%
 \APACrefbtitle {Take Jigsaw’s phishing quiz.} {Take jigsaw’s phishing
   quiz.}
 \newblock
-\APACrefnote{Recuperado de https://phishingquiz.withgoogle.com/}
+\APAChowpublished {https://phishingquiz.withgoogle.com/}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -84,8 +103,30 @@ kali}%
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
 \APAChowpublished {https://www.kali.org/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ltd.%
+}{%
+Ltd.%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+blog360}
+\APACinsertmetastar {%
+blog360}%
+\begin{APACrefauthors}%
+Ltd., Q\BPBI \BPBI T\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\APACrefnote{Consultado el 23 de mayo de 2024}
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {{Noticias de Seguridad en Internet y Sobre Nuestra Comañía |
+  360 Total Security Blog}.} {{Noticias de Seguridad en Internet y Sobre
+  Nuestra Comañía | 360 Total Security Blog}.}
+\newblock
+\APAChowpublished {https://blog.360totalsecurity.com/es/}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -111,6 +152,28 @@ Marcos~Liljedhal, J\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Martínez%
+}{%
+Martínez%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+phishing}
+\APACinsertmetastar {%
+phishing}%
+\begin{APACrefauthors}%
+Martínez, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {¿Qué es el phishing?} {¿qué es el phishing?}
+\newblock
+\APAChowpublished {https://seguridad.unam.mx/que-es-el-phishing-2}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {Oracle VM VirtualBox}}{%
 \APACcitebtitle {Oracle VM VirtualBox}}{%
 {\protect \APACyear {2024}}%
@@ -122,9 +185,7 @@ virtualbox}%
 \newblock
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
-\APAChowpublished {\url{https://www.virtualbox.org/}}.
-\newblock
-\APACrefnote{Consultado el 23 de mayo de 2024}
+\APAChowpublished {https://www.virtualbox.org/}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
