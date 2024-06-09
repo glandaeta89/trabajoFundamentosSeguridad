@@ -1,8 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\large Introducción}{1}{section*.4}%
-\contentsline {section}{\large Rol y Atribuciones de un Oficial de Protección de Datos}{2}{section*.5}%
-\contentsline {subsection}{¿Porque nace la figura del Oficial de Protección de datos?}{2}{section*.6}%
-\contentsline {subsection}{¿Cual es el rol y atribuciones de un Oficial de Protección de Datos?}{3}{section*.7}%
-\contentsline {section}{\large Conclusión}{4}{section*.8}%
-\contentsline {section}{\large \textbf {Referencias}}{6}{section*.9}%
+\contentsline {section}{\large Introducción}{1}{section*.2}%
+\contentsline {section}{\large Rol y Atribuciones de un Oficial de Protección de Datos}{2}{section*.3}%
+\contentsline {subsection}{¿Porque nace la figura del Oficial de Protección de datos?}{2}{section*.4}%
+\contentsline {subsection}{¿Cual es el rol y atribuciones de un Oficial de Protección de Datos?}{3}{section*.5}%
+\contentsline {subsection}{Perfil Profesional del Oficial de Protección de Datos}{5}{section*.6}%
+\contentsline {section}{\large Conclusión}{6}{section*.7}%
+\contentsline {section}{\large \textbf {Referencias}}{8}{section*.8}%
