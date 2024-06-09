@@ -1,191 +1,139 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Abrams%
+de~Protección de Información Personal Corea~del Sur%
 }{%
-Abrams%
+de~Protección de Información Personal Corea~del Sur%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+corea}
+\APACinsertmetastar {%
+corea}%
+\begin{APACrefauthors}%
+de~Protección de Información Personal Corea~del Sur, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {{Comisión de Protección de Información Personal}.}
+  {{Comisión de Protección de Información Personal}.}
+\newblock
+\APAChowpublished {https://www.privacy.go.kr/front/main/main.do}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Law%
+}{%
+Law%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+sudafrica2}
+\APACinsertmetastar {%
+sudafrica2}%
+\begin{APACrefauthors}%
+Law, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{6}{}.
+\newblock
+\APACrefbtitle {{Section 55 Duties and responsibilities of Information
+  Officer}.} {{Section 55 Duties and responsibilities of Information Officer}.}
+\newblock
+\APAChowpublished
+  {https://popia.co.za/section-55-duties-and-responsibilities-of-information-officer/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Law%
+}{%
+Law%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+sudafrica}
+\APACinsertmetastar {%
+sudafrica}%
+\begin{APACrefauthors}%
+Law, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{1}{}.
+\newblock
+\APACrefbtitle {{Protection of Personal Information Act (POPI Act) - POPIA}.}
+  {{Protection of Personal Information Act (POPI Act) - POPIA}.}
+\newblock
+\APAChowpublished {https://popia.co.za/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lorena Donoso~Abarca%
+}{%
+Lorena Donoso~Abarca%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+DerechoInformatico}
+\APACinsertmetastar {%
+DerechoInformatico}%
+\begin{APACrefauthors}%
+Lorena Donoso~Abarca, C\BPBI R\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2021}.
+\newblock
+\APACrefbtitle {Derecho Informático} {Derecho informático}.
+\newblock
+\APACaddressPublisher{Santiago de Chile}{Academia Judicial de Chile}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Parlamento Europeo}%
+}{%
+{Parlamento Europeo}%
 }{%
 {\protect \APACyear {2016}}%
 }]{%
-blogteslacrypt}
+rgpd}
 \APACinsertmetastar {%
-blogteslacrypt}%
+rgpd}%
 \begin{APACrefauthors}%
-Abrams, L.%
+{Parlamento Europeo}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2016}{5}{}.
+\APACrefYearMonthDay{2016}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{TeslaCrypt shuts down and Releases Master Decryption
-  Key}} {{TeslaCrypt shuts down and Releases Master Decryption Key}}.{\BBCQ}
+\APACrefbtitle {Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo
+  de 27 de abril de 2016.} {Reglamento (ue) 2016/679 del parlamento europeo y
+  del consejo de 27 de abril de 2016.}
 \newblock
-\APAChowpublished
-  {https://www.bleepingcomputer.com/news/security/teslacrypt-shuts-down-and-releases-master-decryption-key/}.
+\APAChowpublished {Diario Oficial de la Unión Europea}.
+\newblock
+\APACrefnote{L 119}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Ataques de ransomware TeslaCrypt}}}{%
-\APACcitebtitle {{Ataques de ransomware TeslaCrypt}}}{%
-{\protect \APACyear {2023}}%
+\APACcitebtitle {{PIPA de Corea del Sur | Entrust}}}{%
+\APACcitebtitle {{PIPA de Corea del Sur | Entrust}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-teslacrypt}
+corea2}
 \APACinsertmetastar {%
-teslacrypt}%
-\APACrefbtitle {{Ataques de ransomware TeslaCrypt}.} {{Ataques de ransomware
-  TeslaCrypt}.}
+corea2}%
+\APACrefbtitle {{PIPA de Corea del Sur | Entrust}.} {{PIPA de Corea del Sur |
+  Entrust}.}
 \newblock
-\APACrefYearMonthDay{2023}{4}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished
-  {https://www.kaspersky.es/resource-center/threats/teslacrypt}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Docker%
-}{%
-Docker%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-docker}
-\APACinsertmetastar {%
-docker}%
-\begin{APACrefauthors}%
-Docker.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {Docker overview.} {Docker overview.}
-\newblock
-\APAChowpublished {https://docs.docker.com/get-started/overview/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Jigsaw%
-}{%
-Jigsaw%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-phishingQuiz}
-\APACinsertmetastar {%
-phishingQuiz}%
-\begin{APACrefauthors}%
-Jigsaw, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {Take Jigsaw’s phishing quiz.} {Take jigsaw’s phishing
-  quiz.}
-\newblock
-\APAChowpublished {https://phishingquiz.withgoogle.com/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
-  Distribution}}}{%
-\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
-  Distribution}}}{%
-{\protect \APACyear {2024}}%
-}]{%
-kali}
-\APACinsertmetastar {%
-kali}%
-\APACrefbtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
-  Distribution}.} {{Kali Linux | Penetration Testing and Ethical Hacking Linux
-  Distribution}.}
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APAChowpublished {https://www.kali.org/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Ltd.%
-}{%
-Ltd.%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-blog360}
-\APACinsertmetastar {%
-blog360}%
-\begin{APACrefauthors}%
-Ltd., Q\BPBI \BPBI T\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {{Noticias de Seguridad en Internet y Sobre Nuestra Comañía |
-  360 Total Security Blog}.} {{Noticias de Seguridad en Internet y Sobre
-  Nuestra Comañía | 360 Total Security Blog}.}
-\newblock
-\APAChowpublished {https://blog.360totalsecurity.com/es/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Marcos~Liljedhal%
-}{%
-Marcos~Liljedhal%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-playwithdocker}
-\APACinsertmetastar {%
-playwithdocker}%
-\begin{APACrefauthors}%
-Marcos~Liljedhal, J\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {{Play with Docker}.} {{Play with Docker}.}
-\newblock
-\APAChowpublished {https://labs.play-with-docker.com/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Martínez%
-}{%
-Martínez%
-}{%
-{\protect \APACyear {2019}}%
-}]{%
-phishing}
-\APACinsertmetastar {%
-phishing}%
-\begin{APACrefauthors}%
-Martínez, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2019}{}{}.
-\newblock
-\APACrefbtitle {¿Qué es el phishing?} {¿qué es el phishing?}
-\newblock
-\APAChowpublished {https://seguridad.unam.mx/que-es-el-phishing-2}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Oracle VM VirtualBox}}{%
-\APACcitebtitle {Oracle VM VirtualBox}}{%
-{\protect \APACyear {2024}}%
-}]{%
-virtualbox}
-\APACinsertmetastar {%
-virtualbox}%
-\APACrefbtitle {Oracle VM VirtualBox.} {Oracle vm virtualbox.}
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APAChowpublished {https://www.virtualbox.org/}.
+\begin{APACrefURL}
+  \url{https://www.entrust.com/es/legal-compliance/hsm-solutions/apac/south-koreas-pipa}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
