@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 13:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,7 +1066,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -1075,25 +1075,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \newpage
+l.84 \newpage
               [1] [2] [3] [4] [5] [6] [7] (test.bbl
-Underfull \hbox (badness 3323) in paragraph at lines 37--49
+Underfull \hbox (badness 1314) in paragraph at lines 14--26
+[]\T1/lmr/m/n/10.95 Ballestin, A.  (2023, 3).  \T1/lmr/m/it/10.95 Da-ta Pro-tec
+-tion Of-fi-cer: qué es, fun-cio-nes - Ta-lent Scan-ner.
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+1.
+(C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 3323) in paragraph at lines 103--115
 []\T1/lmr/m/n/10.95 Law, A.  (2021, 6).  \T1/lmr/m/it/10.95 Sec-tion 55 Du-ties
  and res-pon-si-bi-li-ties of In-for-ma-tion Of-fi-cer.
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 61--72
+Underfull \hbox (badness 2042) in paragraph at lines 127--138
 []\T1/lmr/m/n/10.95 Law, A.  (2024, 1).  \T1/lmr/m/it/10.95 Pro-tec-tion of Per
 -so-nal In-for-ma-tion Act (PO-PI Act) - PO-PIA.
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-35.
-(C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-AED endfloat: Processing end Figures and Tables [8
+) AED endfloat: Processing end Figures and Tables [8
 
 ] (test.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1106,16 +1111,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 1027E8066476240C05FB7AB2E93263DC;1808.
+(rerunfilecheck)             Checksum: 19CA93BEA9512561C8B68D5BF17BE224;1819.
  ) 
 Here is how much of TeX's memory you used:
- 26814 strings out of 474485
- 496498 string characters out of 5741847
- 1933542 words of memory out of 5000000
- 48605 multiletter control sequences out of 15000+600000
+ 26834 strings out of 474485
+ 496801 string characters out of 5741847
+ 1934542 words of memory out of 5000000
+ 48621 multiletter control sequences out of 15000+600000
  602655 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,654b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,773b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1123,9 +1128,9 @@ lm/lmcsc10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/lm/lmr10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmri10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on test.pdf (10 pages, 182454 bytes).
+Output written on test.pdf (10 pages, 194294 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

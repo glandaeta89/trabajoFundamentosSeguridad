@@ -1,6 +1,47 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Ballestin%
+}{%
+Ballestin%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+santanderdpo}
+\APACinsertmetastar {%
+santanderdpo}%
+\begin{APACrefauthors}%
+Ballestin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{3}{}.
+\newblock
+\APACrefbtitle {{Data Protection Officer: qué es, funciones - Talent
+  Scanner}.} {{Data Protection Officer: qué es, funciones - Talent Scanner}.}
+\newblock
+\APAChowpublished
+  {https://santandersmartbank.es/talent-scanner/tecnologia-y-data/data-protection-officer/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Data Protection Officer jobs in Spain}}}{%
+\APACcitebtitle {{Data Protection Officer jobs in Spain}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+dpojob}
+\APACinsertmetastar {%
+dpojob}%
+\APACrefbtitle {{Data Protection Officer jobs in Spain}.} {{Data Protection
+  Officer jobs in Spain}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished
+  {\url{https://uk.linkedin.com/jobs/search?keywords=Data%2BProtection%2BOfficer&location}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 de~Protección de Información Personal Corea~del Sur%
 }{%
 de~Protección de Información Personal Corea~del Sur%
@@ -21,6 +62,31 @@ de~Protección de Información Personal Corea~del Sur, C.%
   {{Comisión de Protección de Información Personal}.}
 \newblock
 \APAChowpublished {https://www.privacy.go.kr/front/main/main.do}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Donoso%
+\ \BBA {} Reusser%
+}{%
+Donoso%
+\ \BBA {} Reusser%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+DerechoInformatico}
+\APACinsertmetastar {%
+DerechoInformatico}%
+\begin{APACrefauthors}%
+Donoso, L.%
+\BCBT {}\ \BBA {} Reusser, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2021}.
+\newblock
+\APACrefbtitle {Derecho Informático} {Derecho informático}.
+\newblock
+\APACaddressPublisher{Santiago de Chile}{Academia Judicial de Chile}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -71,25 +137,28 @@ Law, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Lorena Donoso~Abarca%
+Pablo%
 }{%
-Lorena Donoso~Abarca%
+Pablo%
 }{%
-{\protect \APACyear {2021}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-DerechoInformatico}
+univceu}
 \APACinsertmetastar {%
-DerechoInformatico}%
+univceu}%
 \begin{APACrefauthors}%
-Lorena Donoso~Abarca, C\BPBI R\BPBI M.%
+Pablo, U\BPBI C\BPBI S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2021}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APACrefbtitle {Derecho Informático} {Derecho informático}.
+\APACrefbtitle {{Máster Universitario en Protección de Datos, Transparencia y
+  Acceso a la Información}.} {{Máster Universitario en Protección de Datos,
+  Transparencia y Acceso a la Información}.}
 \newblock
-\APACaddressPublisher{Santiago de Chile}{Academia Judicial de Chile}.
+\APAChowpublished
+  {https://www.uspceu.com/oferta/master/proteccion-datos/admision}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -119,14 +188,14 @@ rgpd}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {{PIPA de Corea del Sur | Entrust}}}{%
-\APACcitebtitle {{PIPA de Corea del Sur | Entrust}}}{%
+\APACcitebtitle {{PIPA Corea del Sur | Entrust}}}{%
+\APACcitebtitle {{PIPA Corea del Sur | Entrust}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 corea2}
 \APACinsertmetastar {%
 corea2}%
-\APACrefbtitle {{PIPA de Corea del Sur | Entrust}.} {{PIPA de Corea del Sur |
+\APACrefbtitle {{PIPA Corea del Sur | Entrust}.} {{PIPA Corea del Sur |
   Entrust}.}
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
@@ -134,6 +203,32 @@ corea2}%
 \begin{APACrefURL}
   \url{https://www.entrust.com/es/legal-compliance/hsm-solutions/apac/south-koreas-pipa}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Warren%
+\ \BBA {} Brandeis%
+}{%
+Warren%
+\ \BBA {} Brandeis%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+warren1995}
+\APACinsertmetastar {%
+warren1995}%
+\begin{APACrefauthors}%
+Warren, S\BPBI D.%
+\BCBT {}\ \BBA {} Brandeis, L\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1995}.
+\newblock
+\APACrefbtitle {El derecho a la intimidad} {El derecho a la intimidad}.
+\newblock
+\APACrefnote{Para la edición original, ver «The Right to Privacy», pág.
+  198}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
