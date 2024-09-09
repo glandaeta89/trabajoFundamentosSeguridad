@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\large Introducción}{1}{section*.4}%
+\contentsline {section}{\large Emulación de un Ataque Log4Shell}{2}{section*.5}%
+\contentsline {subsection}{Objetivo}{2}{section*.6}%
+\contentsline {section}{Descripción del Entorno}{3}{section*.7}%
+\contentsline {subsection}{Maquina Virtual}{3}{section*.8}%
+\contentsline {subsection}{Herramientas}{3}{section*.10}%
+\contentsline {section}{\large Conclusión}{5}{section*.12}%
+\contentsline {section}{\large \textbf {Referencias}}{6}{section*.13}%

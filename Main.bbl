@@ -1,0 +1,22 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}}}{%
+\APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}}}{%
+{\protect \APACyear {2024}}%
+}]{%
+kali}
+\APACinsertmetastar {%
+kali}%
+\APACrefbtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}.} {{Kali Linux | Penetration Testing and Ethical Hacking Linux
+  Distribution}.}
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APAChowpublished {https://www.kali.org/}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

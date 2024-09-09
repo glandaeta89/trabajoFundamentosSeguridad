@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  8 SEP 2024 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./test.tex
-(test.tex
+**./Main.tex
+(Main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/apa7\apa7.cls
@@ -858,8 +858,8 @@ fg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
 
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
@@ -911,32 +911,32 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box71
-) (test.aux
+) (Main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
-\openout1 = `test.aux'.
+\openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 \c@maskedRefs=\count334
 
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/apacite\spanish.apc
@@ -1004,10 +1004,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 55.
- (test.out) (test.out)
+Package hyperref Info: Link coloring OFF on input line 54.
+ (Main.out) (Main.out)
 \@outlinefile=\write7
-\openout7 = `test.out'.
+\openout7 = `Main.out'.
 
 
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/apa7/config\APA7spa
@@ -1018,13 +1018,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
 \c@lstlisting=\count341
  [1
 
 {C:/Users/GLandaeta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
-GLandaeta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (test.to
+GLandaeta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (Main.to
 c
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1062,45 +1062,63 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
 )
 \tf@toc=\write8
-\openout8 = `test.toc'.
+\openout8 = `Main.toc'.
 
 
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[1] (Main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lof=\write9
+\openout9 = `Main.lof'.
 
- []
+ [2] (Main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lot=\write10
+\openout10 = `Main.lot'.
 
-
+ [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 \newpage
-              [1] [2] [3] [4] [5] [6] [7] (test.bbl
-Underfull \hbox (badness 1314) in paragraph at lines 14--26
-[]\T1/lmr/m/n/10.95 Ballestin, A.  (2023, 3).  \T1/lmr/m/it/10.95 Da-ta Pro-tec
--tion Of-fi-cer: qué es, fun-cio-nes - Ta-lent Scan-ner.
- []
+l.87 \newpage
+              [1] [2]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+00.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-1.
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 3323) in paragraph at lines 103--115
-[]\T1/lmr/m/n/10.95 Law, A.  (2021, 6).  \T1/lmr/m/it/10.95 Sec-tion 55 Du-ties
- and res-pon-si-bi-li-ties of In-for-ma-tion Of-fi-cer.
+<img2/Imagen1.png, id=84, 264.99pt x 178.41656pt>
+File: img2/Imagen1.png Graphic file (type png)
+<use img2/Imagen1.png>
+Package pdftex.def Info: img2/Imagen1.png  used on input line 113.
+(pdftex.def)             Requested size: 281.85587pt x 189.7849pt.
+
+[3 <./img2/Imagen1.png>]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 126.
+<img2/Imagen2.png, id=97, 348.55219pt x 65.49469pt>
+File: img2/Imagen2.png Graphic file (type png)
+<use img2/Imagen2.png>
+Package pdftex.def Info: img2/Imagen2.png  used on input line 131.
+(pdftex.def)             Requested size: 281.85587pt x 52.96443pt.
+ [4 <./img2/Imagen2.png>] [5] (Main.bbl
+Underfull \hbox (badness 5696) in paragraph at lines 15--21
+[]\T1/lmr/m/it/10.95 Kali Li-nux | Pe-ne-tra-tion Tes-ting and Ethi-cal Hac-kin
+g Li-nux Dis-tri-bu-tion.  \T1/lmr/m/n/10.95 (2024).
  []
 
+) AED endfloat: Processing end Figures and Tables [6
 
-Underfull \hbox (badness 2042) in paragraph at lines 127--138
-[]\T1/lmr/m/n/10.95 Law, A.  (2024, 1).  \T1/lmr/m/it/10.95 Pro-tec-tion of Per
--so-nal In-for-ma-tion Act (PO-PI Act) - PO-PIA.
- []
-
-) AED endfloat: Processing end Figures and Tables [8
-
-] (test.aux
+] (Main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \. on input line 13.
@@ -1110,27 +1128,28 @@ LaTeX Info: Redefining \% on input line 13.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 19CA93BEA9512561C8B68D5BF17BE224;1819.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 5D480A9F4E1758F50F69D21EAA5DF65B;1033.
  ) 
 Here is how much of TeX's memory you used:
- 26834 strings out of 474485
- 496801 string characters out of 5741847
- 1934542 words of memory out of 5000000
- 48621 multiletter control sequences out of 15000+600000
- 602655 words of font info for 65 fonts, out of 8000000 for 9000
+ 26819 strings out of 474485
+ 496731 string characters out of 5741847
+ 1931542 words of memory out of 5000000
+ 48603 multiletter control sequences out of 15000+600000
+ 602973 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,773b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,647b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmcsc10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/lm/lmr10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmri10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmtt10.pfb>
-Output written on test.pdf (10 pages, 194300 bytes).
+ype1/public/lm/lmtk10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmtt10.pfb>
+Output written on Main.pdf (10 pages, 252368 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
