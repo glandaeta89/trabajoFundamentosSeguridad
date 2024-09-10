@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  8 SEP 2024 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  10 SEP 2024 00:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,7 +1096,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img2/Imagen1.png, id=84, 264.99pt x 178.41656pt>
+<img2/Imagen1.png, id=107, 264.99pt x 178.41656pt>
 File: img2/Imagen1.png Graphic file (type png)
 <use img2/Imagen1.png>
 Package pdftex.def Info: img2/Imagen1.png  used on input line 113.
@@ -1105,18 +1105,51 @@ Package pdftex.def Info: img2/Imagen1.png  used on input line 113.
 [3 <./img2/Imagen1.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 126.
-<img2/Imagen2.png, id=97, 348.55219pt x 65.49469pt>
+<img2/Imagen2.png, id=120, 348.55219pt x 65.49469pt>
 File: img2/Imagen2.png Graphic file (type png)
 <use img2/Imagen2.png>
 Package pdftex.def Info: img2/Imagen2.png  used on input line 131.
 (pdftex.def)             Requested size: 281.85587pt x 52.96443pt.
- [4 <./img2/Imagen2.png>] [5] (Main.bbl
+<img2/Imagen3.png, id=123, 273.27094pt x 51.19125pt>
+File: img2/Imagen3.png Graphic file (type png)
+<use img2/Imagen3.png>
+Package pdftex.def Info: img2/Imagen3.png  used on input line 138.
+(pdftex.def)             Requested size: 234.8775pt x 43.99939pt.
+<img2/Imagen4.png, id=124, 137.7647pt x 43.66313pt>
+File: img2/Imagen4.png Graphic file (type png)
+<use img2/Imagen4.png>
+Package pdftex.def Info: img2/Imagen4.png  used on input line 145.
+(pdftex.def)             Requested size: 234.8775pt x 74.44951pt.
+ [4 <./img2/Imagen2.png> <./img2/Imagen3.png>]
+Overfull \hbox (0.27252pt too wide) in paragraph at lines 154--155
+\T1/lmtt/m/n/10.95 '{{range.NetworkSettings.Networks}}{{.IPAddress}}{end}' {nom
+bre de contenedor
+ []
+
+[5 <./img2/Imagen4.png>]
+<img2/Imagen6.png, id=139, 426.84468pt x 97.86563pt>
+File: img2/Imagen6.png Graphic file (type png)
+<use img2/Imagen6.png>
+Package pdftex.def Info: img2/Imagen6.png  used on input line 168.
+(pdftex.def)             Requested size: 281.85587pt x 64.62733pt.
+<img2/Imagen7.png, id=140, 391.4625pt x 59.47218pt>
+File: img2/Imagen7.png Graphic file (type png)
+<use img2/Imagen7.png>
+Package pdftex.def Info: img2/Imagen7.png  used on input line 179.
+(pdftex.def)             Requested size: 281.85587pt x 42.82265pt.
+<img2/Imagen8.png, id=141, 463.7325pt x 49.68562pt>
+File: img2/Imagen8.png Graphic file (type png)
+<use img2/Imagen8.png>
+Package pdftex.def Info: img2/Imagen8.png  used on input line 188.
+(pdftex.def)             Requested size: 375.80544pt x 40.2656pt.
+ [6 <./img2/Imagen6.png> <./img2/Imagen7.png>] [7 <./img2/Imagen8.png>] [8] (Ma
+in.bbl
 Underfull \hbox (badness 5696) in paragraph at lines 15--21
 []\T1/lmr/m/it/10.95 Kali Li-nux | Pe-ne-tra-tion Tes-ting and Ethi-cal Hac-kin
 g Li-nux Dis-tri-bu-tion.  \T1/lmr/m/n/10.95 (2024).
  []
 
-) AED endfloat: Processing end Figures and Tables [6
+) AED endfloat: Processing end Figures and Tables [9
 
 ] (Main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1129,27 +1162,28 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D480A9F4E1758F50F69D21EAA5DF65B;1033.
+(rerunfilecheck)             Checksum: 68A45DFB8E3C2729E1823D3E45B8A928;1267.
  ) 
 Here is how much of TeX's memory you used:
- 26819 strings out of 474485
- 496731 string characters out of 5741847
- 1931542 words of memory out of 5000000
- 48603 multiletter control sequences out of 15000+600000
- 602973 words of font info for 66 fonts, out of 8000000 for 9000
+ 26882 strings out of 474485
+ 497906 string characters out of 5741847
+ 1932542 words of memory out of 5000000
+ 48651 multiletter control sequences out of 15000+600000
+ 607244 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,647b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,547b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmcsc10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmr10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmri10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmtk10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmtt10.pfb>
-Output written on Main.pdf (10 pages, 252368 bytes).
+lm/lmbxi10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmcsc10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/lm/lmr10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/lm/lmri10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmtk10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Main.pdf (13 pages, 363618 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

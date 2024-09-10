@@ -19,4 +19,21 @@ kali}%
 \APAChowpublished {https://www.kali.org/}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Package management | Ubuntu}}}{%
+\APACcitebtitle {{Package management | Ubuntu}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+apt}
+\APACinsertmetastar {%
+apt}%
+\APACrefbtitle {{Package management | Ubuntu}.} {{Package management |
+  Ubuntu}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://ubuntu.com/server/docs/package-management}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

@@ -42,14 +42,14 @@
 
 % Portada
 \thispagestyle{empty}
-\title{\Large  TRABAJO DE INVESTIGACIÓN \\ OFICIAL DE PROTECCIÓN DE DATOS}
+\title{\Large  TRABAJO DE LABORATORIO \\ EMULACIÓN DE UN ATACA LOG4SHELL}
 \author{Gustavo Landaeta Baeza } % (autores separados, consultar al docente)
 % Manera oficial de colocar los autores:
 %\author{Autor(a) I, Autor(a) II, Autor(a) III, Autor(a) X}
 \authorsaffiliations{Universidad Mayor}
-\course{Aspectos Legales y Regulatorios}
-\professor{Prof. Carlos Patricio Reusser}
-\duedate{Junio 09, 2024}
+\course{Análisis y Explotación de Vulnerabilidades}
+\professor{Prof. Tomas Vera}
+\duedate{Septiembre 09, 2024}
 
 \begin{document}
 \maketitle
@@ -131,6 +131,72 @@ Se verifica si docker esta instalado por medio del comando \textbf{\texttt{docke
     \includegraphics[width=0.6\linewidth]{img2/Imagen2.png}
     \label{fig:figura2}
 \end{figure}
+Al no tener docker instalado se procede a instalar docker de forma sencilla ya que kali al renococer que no tiene la aplicación proporciona el comando para instalarlo dentro de su herramienta gestora de paquetes apt (Advance Package Tool)\citep{apt}. Luego de ingresar el comando\textbf{\texttt{apt install docker.io}} podemos nuevamente verificar que tenemos la version instalada de docker 
+\begin{figure}[H]
+    \centering
+    \caption{Captura para verificar la versión de docker}
+    \includegraphics[width=0.5\linewidth]{img2/Imagen3.png}
+    \label{fig:figura3}
+\end{figure}
+Ahora procederemos a verificar la versión de Git con el comando \textbf{\texttt{git --version}}. Donde podemos verificar que la version de kali si tiene ya instalada una version de git.
+\begin{figure}[H]
+    \centering
+    \caption{Captura para verificar la versión de git}
+    \includegraphics[width=0.5\linewidth]{img2/Imagen4.png}
+    \label{fig:figura4}
+\end{figure}
+
+\subsubsection{Aspectos y Comandos Claves}
+Para un desarrollador y una usuario de docker y Git existen varios aspectos claves dependiendo la necesidad del trabajo que se este realizando, para este laboratorio los comandos claves a utilizar seran los siguientes:
+
+\begin{itemize}
+    \item \texttt{docker exec -it my\_container \{comando de ruta u otro\}}: Con este comando podemos ingresar de modo interactivo a la terminal del contenedor donde podemos colocar alguna ruta en especial. Las más utilizadas son \texttt{/bin/bash}, \texttt{/bin/sh} y \texttt{ls}.
+    \item \texttt{docker inspect}: Con este comando podemos inspeccionar todo lo que contiene el contenedor de Docker. Para este laboratorio se utilizará un comando un poco más especial para obtener la IP de cada contenedor inicializado. Este comando será el siguiente: \texttt{docker inspect -f '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{end\}' \{nombre de contenedor o ID\}}.
+    \item \texttt{docker ps}: Para verificar si el contenedor está en ejecución.
+    \item \texttt{docker images}: Para verificar las imágenes contenidas localmente en Docker.
+    \item \texttt{git clone \{url repositorio\}}: Para copiar localmente el o los repositorios que necesitemos.
+\end{itemize}
+
+\subsection{Levantar Aplicación Vulnerable-app} 
+Para poder levantar la aplicacion seguiremos una serie de pasos para poder desplegar la aplicación que contiene la vulnerabilidad.
+
+\subsubsection{Copia de Repositorio}
+ Procederemos a copiar de forma local desde el repositorio de la aplicación Vulnerable-app, para esto necesitamos ejecutar el comando \textbf{git clone https://github.com/darryk10/log4shell-vulnerable-app.git}. Con este comando copiaremos de forma local el repositorio de la aplicación que contiene la vulnerabilidad.
+\begin{figure}[H]
+    \centering
+    \caption{Vista de contenido de repositorio de Vulnerable-app}
+    \includegraphics[width=0.6\linewidth]{img2/Imagen6.png}
+    \label{fig:figura6}
+\end{figure}
+
+\subsubsection{Construcción de la Aplicación}
+Una vez descargado el repositorio debemos entrar a la carpeta del repositorio descargado y con el comando ls revisar el contenido del repositorio.
+
+Desde la pagina del repositorio podemos verificar los pasos recomendados. En primer lugar recomiendan construir la imagen de la aplicación por medio del comando \textbf{\texttt{docker build . -t vulnerable-app}}. Se debe tener en cuenta que para construir la imagen debo tener un archivo receta Dockerfile dentro de la carpeta donde ejecutare el comando.
+\begin{figure}[H]
+    \centering
+    \caption{Vista de la imagen creada localmente en docker de la aplicación Vulnerable-app}
+    \includegraphics[width=0.6\linewidth]{img2/Imagen7.png}
+    \label{fig:figura7}
+\end{figure}
+
+\subsubsection{Despliegue de la Aplicación}
+Para el despliegue de la aplicación ejecutaremos el comando \textbf{\texttt{docker run --rm -d -p 8080: 8080 --name vulnerable-app vulnerable-app}}. Una vez ejecutado el comando se expondrá la aplicación en el puerto 8080. 
+\begin{figure}[H]
+    \centering
+    \caption{Ingreso de Comando Despliegue aplicación}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen8.png}
+    \label{fig:figura8}
+\end{figure}  
+Nos podemos percatar en la Figura~\ref{fig:figura8} que al iniciar la aplicación docker nos proporciona un ID del contenedor el cual nos servirá para verificar algunos aspectos claves para poder trabajar con nuestro contenedor desplegado.
+
+
+
+
+
+
+
+
 
 
 
@@ -138,11 +204,6 @@ Se verifica si docker esta instalado por medio del comando \textbf{\texttt{docke
 \newpage
 \section{\large Conclusión}
 
-El rol que hoy juega un Oficial de Protección de Datos es fundamental para las organizaciones que trabajan con datos personales y sensibles, estos datos hoy en día son considerados un activo valioso para las organizaciones las cuales deben y deberán mantener estándares cada vez mas complejos. La importancia de un DPO para algunos estados ya es una obligatoriedad y por ende no solo es suficiente designar una figura para el cumplimiento de este sino es esencial que esta figura tenga las competencias y capacidades para cumplir a cabalidad dicho rol. Esto validara la confianza y la seguridad de sus usuarios.
-
-El DPO dependiendo la organización para la cual desempeñe sus actividades tendrá que poseer conocimientos especializados tanto en derecho, normas y prácticas de protección de datos, así como desarrollar habilidades para la gestión y supervisión del cumplimiento de las normativas vigentes. Debe ser capaz de identificar riesgos para lograr implementar medidas efectivas y fomentar la cultura de la privacidad y sensibilidad de los datos para mitigar la conminación que pueda tener el individuo afectado y garantizar un manejo ético de datos personales.
-
-La figura del DPO es el enlace que debe tener la organización con las autoridades de protección y los individuos cuyos datos son tratados. Su labor aparte de proteger a las organizaciones de posibles sanciones es fortalecer la confianza del usuario y entidades demostrando que es capaz de gestionar sus datos de manera efectiva y responsable.
 
 En conclusión, el papel que juega el DPO es fundamental en el mundo del siglo XXI, ya que asegura que las organizaciones no solo cumplan con las obligaciones legales, sino que también adopten un enfoque dinámico y responsable hacia la protección de datos. A medida que la tecnología y las regulaciones avanzan, la importancia del DPO continuará creciendo, consolidándose como un pilar fundamental en la gestión de la privacidad y la seguridad de la información.
 
