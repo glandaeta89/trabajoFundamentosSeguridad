@@ -12,6 +12,15 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Comando para visualizar el log de Vulnerable-app en tiempo real}}{8}{figure.caption.24}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Receta de Dockerfile para construir aplicación}}{9}{figure.caption.27}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Imagen de jndi-exploit}}{9}{figure.caption.28}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Terminal dentro del contenedor de JNDI-EXPLOIT}}{10}{figure.caption.29}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Visualización ip de contenedor JNDI-EXPLOIT}}{10}{figure.caption.30}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Comando para iniciar la aplicación JNDI-EXPLOIT}}{11}{figure.caption.31}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Terminal dentro del contenedor de JNDI-EXPLOIT}}{10}{figure.caption.30}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Visualización ip de contenedor JNDI-EXPLOIT}}{10}{figure.caption.31}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Comando para iniciar la aplicación JNDI-EXPLOIT}}{11}{figure.caption.32}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Comando para iniciar la aplicación JNDI-EXPLOIT}}{12}{figure.caption.33}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Curl enviado desde terminal a aplicación vulnerable}}{13}{figure.caption.35}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Netcat conectado}}{13}{figure.caption.36}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Lista de carpetas del contenedor vulnerado}}{14}{figure.caption.38}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Archivo creado en contenedor atacado}}{14}{figure.caption.39}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Terminal de contenedor vulnerado}}{15}{figure.caption.41}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Visualización de evidencia de ataque}}{15}{figure.caption.42}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Pasos con comandos de eliminación de evidencia}}{16}{figure.caption.44}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Verificación de eliminación de evidencia atacante y atacado}}{16}{figure.caption.45}%

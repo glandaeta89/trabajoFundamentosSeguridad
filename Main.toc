@@ -13,5 +13,17 @@
 \contentsline {subsubsection}{Despliegue de la Aplicación}{7}{section*.21}%
 \contentsline {subsection}{Levantar Aplicación JNID-EXPLOIT }{8}{section*.25}%
 \contentsline {subsubsection}{Construcción Dockerfile}{8}{section*.26}%
-\contentsline {section}{\large Conclusión}{12}{section*.32}%
-\contentsline {section}{\large \textbf {Referencias}}{13}{section*.33}%
+\contentsline {subsubsection}{Iniciar JNDI-EXPLOIT}{9}{section*.29}%
+\contentsline {subsection}{Pruebas de Penetración}{12}{section*.34}%
+\contentsline {subsubsection}{Evidencia de Ataque Desde Netcat}{13}{section*.37}%
+\contentsline {subsubsection}{Evidencia de Ataque Aplicación Vulnerada}{15}{section*.40}%
+\contentsline {subsubsection}{Eliminación y Comprobación de Borrado de Evidencia}{16}{section*.43}%
+\contentsline {section}{Análisis de superficie de ataque}{18}{section*.46}%
+\contentsline {subsection}{Vectores de Ataque Potenciales}{18}{section*.47}%
+\contentsline {subsection}{Actores Malintencionados (Threat Actors)}{18}{section*.48}%
+\contentsline {subsection}{Recursos Vulnerables}{19}{section*.49}%
+\contentsline {subsection}{Escenarios de Ataque}{19}{section*.50}%
+\contentsline {subsection}{Impacto Potencial}{19}{section*.51}%
+\contentsline {subsection}{Recomendaciones de Mitigación}{20}{section*.52}%
+\contentsline {section}{ Conclusión}{22}{section*.54}%
+\contentsline {section}{\large \textbf {Referencias}}{23}{section*.55}%

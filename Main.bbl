@@ -1,6 +1,50 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+B%
+\ \BBA {} B%
+}{%
+B%
+\ \BBA {} B%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+curl}
+\APACinsertmetastar {%
+curl}%
+\begin{APACrefauthors}%
+B, G.%
+\BCBT {}\ \BBA {} B, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{7}{}.
+\newblock
+\APACrefbtitle {{¿Qué es un comando cURL y cómo usarlo?}} {{¿Qué es un
+  comando cURL y cómo usarlo?}}
+\newblock
+\begin{APACrefURL} \url{https://www.hostinger.es/tutoriales/comando-curl}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{CVE - CVE-2021-44228}}}{%
+\APACcitebtitle {{CVE - CVE-2021-44228}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+log4shell}
+\APACinsertmetastar {%
+log4shell}%
+\APACrefbtitle {{CVE - CVE-2021-44228}.} {{CVE - CVE-2021-44228}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-44228}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
   Distribution}}}{%
 \APACcitebtitle {{Kali Linux | Penetration Testing and Ethical Hacking Linux
@@ -20,6 +64,22 @@ kali}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Ncat - Netcat for the 21st Century}}}{%
+\APACcitebtitle {{Ncat - Netcat for the 21st Century}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+netcat}
+\APACinsertmetastar {%
+netcat}%
+\APACrefbtitle {{Ncat - Netcat for the 21st Century}.} {{Ncat - Netcat for the
+  21st Century}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://nmap.org/ncat/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{Package management | Ubuntu}}}{%
 \APACcitebtitle {{Package management | Ubuntu}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -33,6 +93,23 @@ apt}%
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://ubuntu.com/server/docs/package-management}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{¿Qué es una superficie de ataque? | IBM}}}{%
+\APACcitebtitle {{¿Qué es una superficie de ataque? | IBM}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+supataque}
+\APACinsertmetastar {%
+supataque}%
+\APACrefbtitle {{¿Qué es una superficie de ataque? | IBM}.} {{¿Qué es una
+  superficie de ataque? | IBM}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.ibm.com/es-es/topics/attack-surface}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

