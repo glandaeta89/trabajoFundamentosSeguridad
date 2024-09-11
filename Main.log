@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  10 SEP 2024 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.8)  10 SEP 2024 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,7 +1096,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 (C:\Users\GLandaeta\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img2/Imagen1.png, id=107, 264.99pt x 178.41656pt>
+<img2/Imagen1.png, id=130, 264.99pt x 178.41656pt>
 File: img2/Imagen1.png Graphic file (type png)
 <use img2/Imagen1.png>
 Package pdftex.def Info: img2/Imagen1.png  used on input line 113.
@@ -1105,17 +1105,17 @@ Package pdftex.def Info: img2/Imagen1.png  used on input line 113.
 [3 <./img2/Imagen1.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 126.
-<img2/Imagen2.png, id=120, 348.55219pt x 65.49469pt>
+<img2/Imagen2.png, id=143, 348.55219pt x 65.49469pt>
 File: img2/Imagen2.png Graphic file (type png)
 <use img2/Imagen2.png>
 Package pdftex.def Info: img2/Imagen2.png  used on input line 131.
 (pdftex.def)             Requested size: 281.85587pt x 52.96443pt.
-<img2/Imagen3.png, id=123, 273.27094pt x 51.19125pt>
+<img2/Imagen3.png, id=146, 273.27094pt x 51.19125pt>
 File: img2/Imagen3.png Graphic file (type png)
 <use img2/Imagen3.png>
 Package pdftex.def Info: img2/Imagen3.png  used on input line 138.
 (pdftex.def)             Requested size: 234.8775pt x 43.99939pt.
-<img2/Imagen4.png, id=124, 137.7647pt x 43.66313pt>
+<img2/Imagen4.png, id=147, 137.7647pt x 43.66313pt>
 File: img2/Imagen4.png Graphic file (type png)
 <use img2/Imagen4.png>
 Package pdftex.def Info: img2/Imagen4.png  used on input line 145.
@@ -1127,29 +1127,84 @@ bre de contenedor
  []
 
 [5 <./img2/Imagen4.png>]
-<img2/Imagen6.png, id=139, 426.84468pt x 97.86563pt>
+<img2/Imagen5.png, id=162, 443.40656pt x 109.1578pt>
+File: img2/Imagen5.png Graphic file (type png)
+<use img2/Imagen5.png>
+Package pdftex.def Info: img2/Imagen5.png  used on input line 168.
+(pdftex.def)             Requested size: 375.80544pt x 92.5214pt.
+<img2/Imagen6.png, id=163, 426.84468pt x 97.86563pt>
 File: img2/Imagen6.png Graphic file (type png)
 <use img2/Imagen6.png>
-Package pdftex.def Info: img2/Imagen6.png  used on input line 168.
+Package pdftex.def Info: img2/Imagen6.png  used on input line 176.
 (pdftex.def)             Requested size: 281.85587pt x 64.62733pt.
-<img2/Imagen7.png, id=140, 391.4625pt x 59.47218pt>
+<img2/Imagen7.png, id=164, 391.4625pt x 59.47218pt>
 File: img2/Imagen7.png Graphic file (type png)
 <use img2/Imagen7.png>
-Package pdftex.def Info: img2/Imagen7.png  used on input line 179.
+Package pdftex.def Info: img2/Imagen7.png  used on input line 187.
 (pdftex.def)             Requested size: 281.85587pt x 42.82265pt.
-<img2/Imagen8.png, id=141, 463.7325pt x 49.68562pt>
+ [6 <./img2/Imagen5.png> <./img2/Imagen6.png>]
+<img2/Imagen8.png, id=171, 463.7325pt x 49.68562pt>
 File: img2/Imagen8.png Graphic file (type png)
 <use img2/Imagen8.png>
-Package pdftex.def Info: img2/Imagen8.png  used on input line 188.
+Package pdftex.def Info: img2/Imagen8.png  used on input line 196.
 (pdftex.def)             Requested size: 375.80544pt x 40.2656pt.
- [6 <./img2/Imagen6.png> <./img2/Imagen7.png>] [7 <./img2/Imagen8.png>] [8] (Ma
-in.bbl
+<img2/Imagen9.png, id=174, 529.98pt x 51.94406pt>
+File: img2/Imagen9.png Graphic file (type png)
+<use img2/Imagen9.png>
+Package pdftex.def Info: img2/Imagen9.png  used on input line 204.
+(pdftex.def)             Requested size: 375.80544pt x 36.83377pt.
+ [7 <./img2/Imagen7.png> <./img2/Imagen8.png> <./img2/Imagen9.png>]
+<img2/Imagen10.png, id=182, 502.12593pt x 412.54124pt>
+File: img2/Imagen10.png Graphic file (type png)
+<use img2/Imagen10.png>
+Package pdftex.def Info: img2/Imagen10.png  used on input line 214.
+(pdftex.def)             Requested size: 375.80544pt x 308.77568pt.
+<img2/Imagen11.png, id=183, 1074.26344pt x 430.60875pt>
+File: img2/Imagen11.png Graphic file (type png)
+<use img2/Imagen11.png>
+Package pdftex.def Info: img2/Imagen11.png  used on input line 229.
+(pdftex.def)             Requested size: 422.77664pt x 169.46767pt.
+ [8 <./img2/Imagen10.png>]
+<img2/Imagen12.png, id=189, 495.35063pt x 147.55125pt>
+File: img2/Imagen12.png Graphic file (type png)
+<use img2/Imagen12.png>
+Package pdftex.def Info: img2/Imagen12.png  used on input line 237.
+(pdftex.def)             Requested size: 375.80544pt x 111.94197pt.
+<img2/Imagen13.png, id=190, 478.03593pt x 55.70813pt>
+File: img2/Imagen13.png Graphic file (type png)
+<use img2/Imagen13.png>
+Package pdftex.def Info: img2/Imagen13.png  used on input line 246.
+(pdftex.def)             Requested size: 375.80544pt x 43.79471pt.
+
+Overfull \hbox (11.95189pt too wide) in paragraph at lines 241--248
+\T1/lmr/m/n/10.95 li-za-re-mos el co-man-do \T1/lmtt/b/n/10.95 docker run -it -
+p 8180:8180 -p 1099:1099 -p 1389:1389 jndi-exploit
+ []
+
+[9 <./img2/Imagen11.png> <./img2/Imagen12.png>]
+Overfull \hbox (36.13353pt too wide) in paragraph at lines 250--252
+\T1/lmtt/m/n/10.95 inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}
+{end}' {nombre de contenedor
+ []
+
+<img2/Imagen14.png, id=198, 532.23843pt x 109.91063pt>
+File: img2/Imagen14.png Graphic file (type png)
+<use img2/Imagen14.png>
+Package pdftex.def Info: img2/Imagen14.png  used on input line 256.
+(pdftex.def)             Requested size: 375.80544pt x 77.60773pt.
+<img2/Imagen15.png, id=200, 637.63219pt x 170.88844pt>
+File: img2/Imagen15.png Graphic file (type png)
+<use img2/Imagen15.png>
+Package pdftex.def Info: img2/Imagen15.png  used on input line 265.
+(pdftex.def)             Requested size: 469.75502pt x 125.89745pt.
+[10 <./img2/Imagen13.png> <./img2/Imagen14.png>] [11 <./img2/Imagen15.png>]
+[12] (Main.bbl
 Underfull \hbox (badness 5696) in paragraph at lines 15--21
 []\T1/lmr/m/it/10.95 Kali Li-nux | Pe-ne-tra-tion Tes-ting and Ethi-cal Hac-kin
 g Li-nux Dis-tri-bu-tion.  \T1/lmr/m/n/10.95 (2024).
  []
 
-) AED endfloat: Processing end Figures and Tables [9
+) AED endfloat: Processing end Figures and Tables [13
 
 ] (Main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1162,13 +1217,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 68A45DFB8E3C2729E1823D3E45B8A928;1267.
+(rerunfilecheck)             Checksum: 1C7C604DCEAC8C16E96E240EBBBFEEFB;1500.
  ) 
 Here is how much of TeX's memory you used:
- 26882 strings out of 474485
- 497906 string characters out of 5741847
- 1932542 words of memory out of 5000000
- 48651 multiletter control sequences out of 15000+600000
+ 26961 strings out of 474485
+ 499537 string characters out of 5741847
+ 1933542 words of memory out of 5000000
+ 48716 multiletter control sequences out of 15000+600000
  607244 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,547b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1181,9 +1236,9 @@ e1/public/lm/lmr10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/lm/lmri10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmtk10.pfb><C:/Users/GLandaeta/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Main.pdf (13 pages, 363618 bytes).
+Output written on Main.pdf (17 pages, 801345 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

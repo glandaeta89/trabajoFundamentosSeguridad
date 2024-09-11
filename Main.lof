@@ -4,6 +4,14 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Captura para verificar si tenemos docker instalado}}{4}{figure.caption.11}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Captura para verificar la versión de docker}}{4}{figure.caption.12}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Captura para verificar la versión de git}}{5}{figure.caption.13}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Vista de contenido de repositorio de Vulnerable-app}}{6}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Vista de la imagen creada localmente en docker de la aplicación Vulnerable-app}}{6}{figure.caption.19}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Ingreso de Comando Despliegue aplicación}}{7}{figure.caption.21}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Captura para verificar la descarga del repositorio}}{6}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Vista de contenido de repositorio de Vulnerable-app}}{6}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Vista de la imagen creada localmente en docker de la aplicación Vulnerable-app}}{7}{figure.caption.20}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ingreso de Comando Despliegue aplicación}}{7}{figure.caption.22}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Comando para obtener la ip local del contenedor de la red docker}}{7}{figure.caption.23}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Comando para visualizar el log de Vulnerable-app en tiempo real}}{8}{figure.caption.24}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Receta de Dockerfile para construir aplicación}}{9}{figure.caption.27}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Imagen de jndi-exploit}}{9}{figure.caption.28}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Terminal dentro del contenedor de JNDI-EXPLOIT}}{10}{figure.caption.29}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Visualización ip de contenedor JNDI-EXPLOIT}}{10}{figure.caption.30}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Comando para iniciar la aplicación JNDI-EXPLOIT}}{11}{figure.caption.31}%

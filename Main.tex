@@ -161,7 +161,15 @@ Para un desarrollador y una usuario de docker y Git existen varios aspectos clav
 Para poder levantar la aplicacion seguiremos una serie de pasos para poder desplegar la aplicación que contiene la vulnerabilidad.
 
 \subsubsection{Copia de Repositorio}
- Procederemos a copiar de forma local desde el repositorio de la aplicación Vulnerable-app, para esto necesitamos ejecutar el comando \textbf{git clone https://github.com/darryk10/log4shell-vulnerable-app.git}. Con este comando copiaremos de forma local el repositorio de la aplicación que contiene la vulnerabilidad.
+ Procederemos a copiar de forma local desde el repositorio de la aplicación Vulnerable-app, para esto necesitamos ejecutar el comando \textbf{git clone https://github.com/darryk10/log4shell-vulnerable-app.git}.
+\begin{figure}[H]
+    \centering
+    \caption{Captura para verificar la descarga del repositorio}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen5.png}
+    \label{fig:figura5}
+\end{figure}
+ 
+  Con este comando copiaremos de forma local el repositorio de la aplicación que contiene la vulnerabilidad.
 \begin{figure}[H]
     \centering
     \caption{Vista de contenido de repositorio de Vulnerable-app}
@@ -189,10 +197,75 @@ Para el despliegue de la aplicación ejecutaremos el comando \textbf{\texttt{doc
     \label{fig:figura8}
 \end{figure}  
 Nos podemos percatar en la Figura~\ref{fig:figura8} que al iniciar la aplicación docker nos proporciona un ID del contenedor el cual nos servirá para verificar algunos aspectos claves para poder trabajar con nuestro contenedor desplegado.
+Verificaremos la ip de la red de Docker con el comando visualizado en la Figura~\ref{fig:figura9}
+\begin{figure}[H]
+    \centering
+    \caption{Comando para obtener la ip local del contenedor de la red docker}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen9.png}
+    \label{fig:figura9}
+\end{figure} 
+Esta ip la debemos guardar para poder después realizar las peticiones http al servidor de aplicación de esta aplicación.
 
+También dejaremos implementado el comando \textbf{\texttt{docker logs -f (ID contenedor)}}. Este comando nos ira mostrando en tiempo real el log de la aplicación.
 
+\begin{figure}[H]
+    \centering
+    \caption{Comando para visualizar el log de Vulnerable-app en tiempo real}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen10.png}
+    \label{fig:figura10}
+\end{figure} 
 
+\subsection{Levantar Aplicación JNID-EXPLOIT }
 
+En esta sección veremos como construir la receta de docker para instanciar en un contenedor la aplicación que vulnerara el contenedor con la aplicación vulnerable.
+
+\subsubsection{Construcción Dockerfile}
+
+El primer paso es en una carpeta construir un docker file, para esto utilizaremos el comando \textbf{\texttt{sudo vim Dockerfile}}. Con este comando se abrira un gestos de notas donde podremos insertar nuestra receta que construira la imagen de la aplicación.
+La receta que utilizaremos sera la misma proporcionada por el profesor en clases.
+\begin{figure}[H]
+    \centering
+    \caption{Receta de Dockerfile para construir aplicación}
+    \includegraphics[width=0.9\linewidth]{img2/Imagen11.png}
+    \label{fig:figura11}
+\end{figure}
+
+Una vez guardado el Dockerfile  lo tenemos que construir. Dentro de la ubicación en donde se encuentra el archivo Dockerfile tenemos que ejecutar el comando de construcción de la imagen.  \textbf{\texttt{docker build -t jndi-exploit .}}. Una vez ejecutado podremos visualizar en docker la imagen creada .
+\begin{figure}[H]
+    \centering
+    \caption{Imagen de jndi-exploit}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen12.png}
+    \label{fig:figura12}
+\end{figure} 
+
+Ahora se debe ejecutar el comando para iniciar la imagen generada. Para este contenedor utilizaremos el comando \textbf{\texttt{docker run -it -p 8180:8180 -p 1099:1099 -p 1389:1389 jndi-exploit}} Con este comando el contenedor se inicia en modo interactivo lo que quiere decir que entraremos directamente a la terminal del contenedor.
+Una vez dentro del contenedor se procede a revisar si se encuentra el archivo que descargo en el proceso de la construcción de la imagen. Este archivo ese el \textbf{\texttt{JNDI-Injection-Exploit.jar}}
+\begin{figure}[H]
+    \centering
+    \caption{Terminal dentro del contenedor de JNDI-EXPLOIT}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen13.png}
+    \label{fig:figura13}
+\end{figure} 
+
+Antes de levantar la aplicación debemos verificar la ip de la red docker.
+para esto ejecutamos el comando docker ps para saber cual es nuestro id de contenedor y luego el comando textbf\texttt{docker inspect -f '\{\{range.NetworkSettings.Networks\}\}\{\{.IPAddress\}\}\{end\}' \{nombre de contenedor o ID\}}. para saber la ip otorgada.
+
+\begin{figure}[H]
+    \centering
+    \caption{Visualización ip de contenedor JNDI-EXPLOIT}
+    \includegraphics[width=0.8\linewidth]{img2/Imagen14.png}
+    \label{fig:figura14}
+\end{figure}
+
+Ahora que conocemos la ip tenemos que ejecutar el comando para iniciar la aplicación.
+El comando ejecutado es el que podemos ver en la Figura~\ref{fig:figura2}. Como observacion se debe tener en cuenta las comillas que van dentro del comando, ya que las comillas que se tienen en la guía no levantan bien el comando de la shell.
+\begin{figure}[H]
+    \centering
+    \caption{Comando para iniciar la aplicación JNDI-EXPLOIT}
+    \includegraphics[width=1\linewidth]{img2/Imagen15.png}
+    \label{fig:figura15}
+\end{figure}
+Ahora que tenemos levantada la aplicación debemos abrir una terminal nueva en el mismo contenedor de JNDI y aplicar el comando de netcat. Debemos aplicar el comando \textbf{\texttt{nc -lvp 8083}}. El desglose de este comando es el siguiente
 
 
 
